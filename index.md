@@ -1,9 +1,11 @@
+This is the official indexed archive for my Intelectual Property. 
 
----
-layout: home
-title: ""
----
+Personal Micro Dictionary (and other poetry projects)
 
-Welcome. This is the master archive for poetry, image‑text, songs, sculpture, theory, and the audiovisual projects connected to *The Sustainable Republic*.
+Soul Feedback (Audiovisual projects)
+  Image‑text (Conceptual Art)
+  Albums & Songs (lyrics, chords, metronome, rythmn)
 
-Use the site navigation above (or the upcoming radial fan) to explore.
+Sculpture (Zodiac of Soullessness and other related glass based 3D objects)
+
+Theory (including Contemporary Art Theory, Cognitive Aesthetics of Systems and The Sustainable Republic).
