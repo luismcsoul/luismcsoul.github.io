@@ -5,7 +5,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Luis Alberto Mejía Clavijo",
+  "name": "Luis Alberto Mejia Clavijo",
   "url": "{{ site.url }}",
   "description": "Expert in cognitive aesthetics of systems; poetry, image‑text, songs, sculpture, theory."
 }
@@ -16,7 +16,7 @@
   "@context": "https://schema.org",
   "@type": "Poem",
   "name": "{{ page.title | escape }}",
-  "author": { "@type": "Person", "name": "Luis Alberto Mejía Clavijo" },
+  "author": { "@type": "Person", "name": "Luis Alberto Mejia Clavijo" },
   "inLanguage": "es-ES",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "description": "{{ page.excerpt | strip_html | escape }}"
