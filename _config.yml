@@ -1,0 +1,6 @@
+title: "Luis Alberto Mejia Clavijo — Cognitive Aesthetics of Systems"
+description: "Official site and living archive."
+theme: minima     # safe GitHub Pages theme; OK to start with
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
