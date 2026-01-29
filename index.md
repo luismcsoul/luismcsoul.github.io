@@ -1,4 +1,4 @@
-This is the official indexed archive for my Intelectual Property. 
+This is the official indexed archive: An Intelectual Property Repository. 
 
 Personal Micro Dictionary (and other poetry projects)
 
