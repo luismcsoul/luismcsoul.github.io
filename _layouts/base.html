@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     {% include head-meta.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
   </head>
 
   <body class="layout-{{ page.layout | default: 'page' }}">
@@ -9,7 +10,7 @@
       {{ content }}
     </main>
 
-    <!-- Watermark (always visible, hover → full name, click → home) -->
+    <!-- Watermark Link -->
     <footer class="watermark" aria-label="Site watermark">
       <a href="{{ '/' | relative_url }}" class="wm-link">
         <span class="mark-short">luismcsoul</span>
@@ -17,6 +18,6 @@
       </a>
     </footer>
 
-    <script src="/assets/js/theme.js"></script>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
   </body>
 </html>
