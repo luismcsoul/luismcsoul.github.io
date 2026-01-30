@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     {% include head-meta.html %}
-    <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
   </head>
+
   <body class="layout-{{ page.layout | default: 'page' }}">
     <main id="main" tabindex="-1" aria-live="polite">
       {{ content }}
     </main>
 
-    <!-- Watermark (home link) -->
+    <!-- Watermark (always visible, hover → full name, click → home) -->
     <footer class="watermark" aria-label="Site watermark">
       <a href="{{ '/' | relative_url }}" class="wm-link">
         <span class="mark-short">luismcsoul</span>
@@ -17,7 +17,6 @@
       </a>
     </footer>
 
-    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
+    <script src="/assets/js/theme.js"></script>
   </body>
 </html>
-``
