@@ -97,3 +97,86 @@ main {
   padding: 0 1.5rem;
   box-sizing: border-box;
 }
+
+
+/* Disable scrolling globally */
+html, body {
+  height: 100svh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Home page centering */
+.home-center {
+  position: relative;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+/* Center phrase */
+.center-phrase {
+  background: none;
+  border: none;
+  font-size: clamp(22px, 4vw, 42px);
+  cursor: pointer;
+  display: inline-grid;
+  gap: .2rem;
+}
+
+/* Branch navigation initially hidden */
+.branches {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.branches ul {
+  opacity: 0;
+  transform: translateY(10px);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+  transition: opacity .3s ease, transform .3s ease;
+}
+
+/* SHOW branches on hover or focus */
+.home-center:hover .branches ul,
+.center-phrase:focus + .branches ul {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Watermark */
+.watermark {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  user-select: none;
+}
+
+.wm-link {
+  opacity: .08;
+  text-decoration: none;
+  color: #000;
+  transition: opacity .2s ease;
+}
+
+.wm-link:hover,
+.wm-link:focus {
+  opacity: .25;
+}
+
+.mark-long { display: none; }
+.wm-link:hover .mark-short,
+.wm-link:focus .mark-short { display: none; }
+.wm-link:hover .mark-long,
+.wm-link:focus .mark-long { display: block; }
