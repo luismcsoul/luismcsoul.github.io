@@ -77,3 +77,23 @@ body{
   :root{ --bg:#0f0f10; --fg:#e8e8ea; --muted:#9a9aa0; --wm:#fff; }
   .branches a{ background:rgba(0,0,0,.25) }
 }
+
+/* Make each page fit exactly in the viewport */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100svh;            /* Safe viewport height */
+  overflow: hidden;          /* Disable scrolling */
+}
+
+/* Ensure main content centers itself */
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical centering */
+  align-items: center;       /* horizontal centering */
+  text-align: center;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+}
