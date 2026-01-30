@@ -13,14 +13,4 @@ layout: base
   <div class="work-body" itemprop="text">
     {{ content }}
   </div>
-
-  {% if page.references %}
-  <section class="visually-hidden" aria-label="References">
-    <ul>
-      {% for r in page.references %}
-        <li>{{ r }}</li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
 </article>
