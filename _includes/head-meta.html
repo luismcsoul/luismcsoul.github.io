@@ -1,0 +1,23 @@
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title and page.title != "" %}{{ page.title }} — {% endif %}Luis Alberto Mejia Clavijo — Cognitive Aesthetics of Systems</title>
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines }}">
+
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<meta property="og:site_name" content="Luis Alberto Mejia Clavijo">
+<meta property="og:title" content="{% if page.title and page.title != "" %}{{ page.title }} — {% endif %}Cognitive Aesthetics of Systems">
+<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="{% if page.schema_type %}article{% else %}website{% endif %}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Luis Alberto Mejia Clavijo",
+  "url": "{{ site.url }}",
+  "description": "Cognitive aesthetics of systems. This is the official indexed archive: An Intellectual Property Repository."
+}
+</script>
