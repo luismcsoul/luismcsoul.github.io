@@ -180,3 +180,10 @@ html, body {
 .wm-link:focus .mark-short { display: none; }
 .wm-link:hover .mark-long,
 .wm-link:focus .mark-long { display: block; }
+
+/* Mobile reveal support using body.reveal */
+body.reveal .branches ul {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
