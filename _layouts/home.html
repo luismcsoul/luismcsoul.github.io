@@ -4,10 +4,8 @@ layout: base
 ---
 
 <section class="center" aria-label="Center phrase">
-  <!-- The 4 lines; visible by default -->
   <button class="center-phrase" id="centerToggle"
-          aria-expanded="false"
-          aria-controls="branches"
+          aria-expanded="false" aria-controls="branches"
           title="Open branches">
     <span>Cognitive</span>
     <span>Aesthetics</span>
@@ -15,13 +13,13 @@ layout: base
     <span>Systems</span>
   </button>
 
-  <!-- The branches; hidden by default, shown on hover/focus/tap -->
   <nav id="branches" class="branches" aria-label="Branches">
     <ul>
       <li><a href="{{ '/personal-micro-dictionary/' | relative_url }}">Personal Micro Dictionary</a></li>
-      <li><a href="{{ '/image-text/' | relative_url }}">Soul Feedback · Image‑Text · Albums &amp; Songs</a></li>
-      <li><a href="{{ '/sculpture/' | relative_url }}">Sculpture · Zodiac of Soullessness</a></li>
-      <li><a href="{{ '/theory/' | relative_url }}">Theory · Cognitive Aesthetics · Sustainable Republic</a></li>
+      <li><a href="{{ '/image-text/'               | relative_url }}">Soul Feedback · Image‑Text · Albums &amp; Songs</a></li>
+      <li><a href="{{ '/sculpture/'                | relative_url }}">Sculpture · Zodiac of Soullessness</a></li>
+      <li><a href="{{ '/theory/'                   | relative_url }}">Theory · Cognitive Aesthetics · Sustainable Republic</a></li>
     </ul>
   </nav>
 </section>
+``
