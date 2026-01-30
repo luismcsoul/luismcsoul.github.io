@@ -1,0 +1,26 @@
+
+---
+layout: base
+---
+
+<article class="work" itemscope itemtype="https://schema.org/{{ page.schema_type | default: 'CreativeWork' }}">
+  {% if page.title and page.title != "" %}
+  <header class="visually-hidden">
+    <h1 itemprop="name">{{ page.title }}</h1>
+  </header>
+  {% endif %}
+
+  <div class="work-body" itemprop="text">
+    {{ content }}
+  </div>
+
+  {% if page.references %}
+  <section class="visually-hidden" aria-label="References">
+    <ul>
+      {% for r in page.references %}
+        <li>{{ r }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>
