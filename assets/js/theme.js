@@ -31,3 +31,31 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.toggle('reveal');
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const body = document.body;
+  const phrase = document.getElementById('centerToggle');
+  const orb = document.getElementById('navOrb');
+
+  function toggleReveal() {
+    body.classList.toggle('reveal');
+    const expanded = body.classList.contains('reveal');
+    if (phrase) phrase.setAttribute('aria-expanded', String(expanded));
+    if (orb) orb.setAttribute('aria-expanded', String(expanded));
+  }
+
+  // Tap/click toggles
+  if (phrase) phrase.addEventListener('click', toggleReveal);
+  if (orb)    orb.addEventListener('click', toggleReveal);
+
+  // ESC closes
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      body.classList.remove('reveal');
+      if (phrase) phrase.setAttribute('aria-expanded', 'false');
+      if (orb)    orb.setAttribute('aria-expanded', 'false');
+    }
+    // Optional: press 'o' to open/close
+    if (e.key.toLowerCase() === 'o') toggleReveal();
+  });
+});
