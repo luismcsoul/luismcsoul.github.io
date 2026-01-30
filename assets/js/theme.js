@@ -21,3 +21,13 @@
     if(!inside){ document.body.classList.remove('reveal'); btn.setAttribute('aria-expanded','false'); }
   });
 })();
+
+// Enable tap-to-reveal on mobile
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById('centerToggle');
+  if (!toggle) return;
+
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('reveal');
+  });
+});
