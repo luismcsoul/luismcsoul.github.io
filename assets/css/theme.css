@@ -1,0 +1,80 @@
+
+:root{
+  --bg:#fafafa;
+  --fg:#111;
+  --muted:#777;
+  --wm:#000;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; background:var(--bg); color:var(--fg);
+  font:400 17px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+/* Centered home */
+.layout-home .center{
+  min-height:100svh; display:grid; place-items:center; text-align:center;
+}
+.center-phrase{
+  background:none; border:0; color:var(--fg); cursor:pointer;
+  display:inline-grid; gap:.15rem; padding:1rem; font-size:clamp(26px,4vw,44px);
+  letter-spacing:.02em; line-height:1.05; outline-offset:6px;
+}
+.center-phrase span{display:block}
+
+/* Branches hidden by default */
+.branches{position:absolute; inset:0; display:grid; place-items:center; pointer-events:none}
+.branches ul{
+  list-style:none; margin:0; padding:0; display:grid; gap:.75rem;
+  transform:translateY(4px); opacity:0; transition:.25s ease;
+}
+.branches a{
+  color:var(--fg); text-decoration:none; font-size:clamp(16px,2.1vw,22px);
+  background:rgba(255,255,255,.7); backdrop-filter: blur(6px);
+  padding:.35rem .6rem; border-radius:.35rem; box-shadow:0 .25rem .8rem rgba(0,0,0,.06);
+}
+.center:hover + .branches ul,
+.center:focus-within + .branches ul,
+.layout-home .reveal .branches ul{ /* JS toggles .reveal on body for touch */
+  opacity:1; transform:none; pointer-events:auto;
+}
+
+/* Work pages: keep content centered with generous margins */
+.layout-work #main, .work-body{
+  max-width:68ch; margin:8vh auto; padding:0 1rem; font-size:clamp(18px,2.2vw,21px);
+}
+
+/* Watermark (only persistent text) */
+.watermark{
+  position:fixed; left:50%; bottom:1.1rem; transform:translateX(-50%);
+  user-select:none; z-index:1000;
+}
+.wm-link{
+  display:block; text-decoration:none; text-align:center; line-height:1.05;
+  color:var(--wm); opacity:.08; transition:opacity .2s ease, transform .2s ease;
+}
+.wm-link:hover,.wm-link:focus{ opacity:.18; transform:translateY(-1px); }
+.mark-short{display:block; letter-spacing:.04em}
+.mark-long{display:none; font-size:13px; letter-spacing:.02em}
+.wm-link:hover .mark-short,.wm-link:focus .mark-short{display:none}
+.wm-link:hover .mark-long,.wm-link:focus .mark-long{display:block}
+
+/* Accessibility helpers */
+.visually-hidden{
+  position:absolute !important; clip:rect(1px,1px,1px,1px);
+  padding:0 !important; border:0 !important; height:1px !important; width:1px !important; overflow:hidden;
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce){
+  .branches ul{transition:none}
+  .wm-link{transition:none}
+}
+
+/* Dark mode (optional: remove if not needed) */
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0f0f10; --fg:#e8e8ea; --muted:#9a9aa0; --wm:#fff; }
+  .branches a{ background:rgba(0,0,0,.25) }
+}
