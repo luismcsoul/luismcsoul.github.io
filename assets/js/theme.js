@@ -1,4 +1,3 @@
-
 (function(){
   const btn = document.getElementById('centerToggle');
   if(!btn) return;
