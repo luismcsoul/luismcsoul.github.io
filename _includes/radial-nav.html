@@ -1,0 +1,25 @@
+<nav class="radial-nav" aria-label="Branches">
+  <!-- Invisible, focusable hotspot at the center (works on all pages) -->
+  <button class="nav-orb" id="navOrb"
+          aria-controls="radialList"
+          aria-expanded="false"
+          title="Open branches">
+    <span class="sr-only">Open branches</span>
+  </button>
+
+  <!-- Radial items arranged in a circle; adjust labels/links as needed -->
+  <ul id="radialList" class="radial-list">
+    <li style="--i:0; --n:4;">
+      <a href="{{ '/personal-micro-dictionary/' | relative_url }}">Personal Micro Dictionary</a>
+    </li>
+    <li style="--i:1; --n:4;">
+      <a href="{{ '/image-text/' | relative_url }}">Soul Feedback · Image‑Text · Albums &amp; Songs</a>
+    </li>
+    <li style="--i:2; --n:4;">
+      <a href="{{ '/sculpture/' | relative_url }}">Sculpture · Zodiac of Soullessness</a>
+    </li>
+    <li style="--i:3; --n:4;">
+      <a href="{{ '/theory/' | relative_url }}">Theory · Cognitive Aesthetics · Sustainable Republic</a>
+    </li>
+  </ul>
+</nav>
