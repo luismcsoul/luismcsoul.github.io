@@ -2,23 +2,25 @@
 layout: base
 ---
 
-<section class="center" aria-label="Center phrase">
+<section class="home-center">
+
+  <!-- Main center phrase -->
   <button class="center-phrase" id="centerToggle"
-          aria-expanded="false" aria-controls="branches"
-          title="Open branches">
+          aria-expanded="false"
+          aria-controls="branches">
     <span>Cognitive</span>
     <span>Aesthetics</span>
     <span>of</span>
     <span>Systems</span>
   </button>
 
+  <!-- Branch navigation -->
   <nav id="branches" class="branches" aria-label="Branches">
     <ul>
-      <li><a href="{{ '/personal-micro-dictionary/' | relative_url }}">Personal Micro Dictionary</a></li>
-      <li><a href="{{ '/image-text/'               | relative_url }}">Soul Feedback · Image‑Text · Albums &amp; Songs</a></li>
-      <li><a href="{{ '/sculpture/'                | relative_url }}">Sculpture · Zodiac of Soullessness</a></li>
-      <li><a href="{{ '/theory/'                   | relative_url }}">Theory · Cognitive Aesthetics · Sustainable Republic</a></li>
+      <li><a href="/personal-micro-dictionary/">Personal Micro Dictionary</a></li>
+      <li><a href="/image-text/">Soul Feedback · Image‑Text · Albums & Songs</a></li>
+      <li><a href="/sculpture/">Sculpture · Zodiac of Soullessness</a></li>
+      <li><a href="/theory/">Theory · Cognitive Aesthetics · Sustainable Republic</a></li>
     </ul>
   </nav>
 </section>
-``
