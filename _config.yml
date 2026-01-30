@@ -1,5 +1,22 @@
+
 title: "Luis Alberto Mejia Clavijo — Cognitive Aesthetics of Systems"
-description: "Official site and living archive."
+description: "This is the official indexed archive: An Intellectual Property Repository."
+url: "https://luismcsoul.github.io"
+
+# build
+markdown: kramdown
+highlighter: none
+
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+
+# collections (start with PMD; add others later)
+collections:
+  pmd:
+    output: true
+    permalink: /personal-micro-dictionary/:slug/
+
+defaults:
+  - scope: { path: "", type: pmd }
+    values: { layout: work, schema_type: "Poem" }
