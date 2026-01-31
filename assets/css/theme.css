@@ -92,6 +92,8 @@ main {
 .wm-link {
   text-decoration: none; color: #000; opacity: .08;
   transition: opacity .18s ease;
+  text-align: center;          /* <<< center the text inside the link */
+  display: inline-block;       /* (already implied by your use, but safe to add) */
 }
 .wm-link:hover, .wm-link:focus { opacity: .22; }
 .mark-long { display: none; }
