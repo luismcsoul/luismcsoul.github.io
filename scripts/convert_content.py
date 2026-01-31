@@ -43,21 +43,24 @@ def parse_csv_list(v):
 
 def write_page(row):
     collection = (row.get("collection") or "").strip()
-    if collection not in ("pmd","songs","sculpture","image-text","theory"):
+    if collection not in ("poetry","pmd","songs","sculpture","image-text","theory"):
         print(f"Skipping row with invalid collection: {collection}")
         return
 
-    # Paths
-    folder = os.path.join(ROOT, collection)
-    os.makedirs(folder, exist_ok=True)
+# Sub-folder logic for series (poetry) and albums (songs)
+sub = ""
+# Support both 'poetry' (recommended) and legacy 'pmd' for your poetry rows
+if collection in ("poetry", "pmd") and row.get("series"):
+    sub = slugify(row.get("series"))
+elif collection == "songs" and row.get("album"):
+    sub = slugify(row.get("album"))
 
-    title = (row.get("title") or "").strip()
-    if not title:
-        print("Skipping row without title")
-        return
+# Final folder path (with sub-folder if present)
+folder = os.path.join(ROOT, collection, sub) if sub else os.path.join(ROOT, collection)
+os.makedirs(folder, exist_ok=True)
 
-    slug = (row.get("slug") or "").strip() or slugify(title)
-    fname = os.path.join(folder, f"{slug}.md")
+# Final filename
+fname = os.path.join(folder, f"{slug}.md")
 
     # Core fields
     date = (row.get("date") or "").strip()
