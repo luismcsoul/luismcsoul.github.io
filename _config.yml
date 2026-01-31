@@ -7,9 +7,31 @@ plugins:
   - jekyll-feed
 
 collections:
-  pmd:
+  poetry:
     output: true
-    permalink: /personal-micro-dictionary/:slug/
+    permalink: /poetry/:path/   # :path = subfolders + slug
+
+---
+layout: work
+title: "Dawn — Lexeme 01"
+schema_type: "Poem"
+series: "Personal Micro Dictionary"   # optional but useful
+order: 1
+---
+
+  songs:
+    output: true
+    permalink: /songs/:path/
+
+---
+layout: work
+title: "Animal — Track 01"
+schema_type: "MusicComposition"
+album: "Animal"
+track: 1
+bpm: 92
+key: "Dm"
+---
 
 defaults:
   - scope: { path: "", type: pmd }
