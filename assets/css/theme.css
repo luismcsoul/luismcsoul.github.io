@@ -26,14 +26,6 @@ main {
   letter-spacing: .02em; line-height: 1.06;
 }
 
-/* ------------- Radial Nav (global overlay) ------------- */
-.radial-nav {
-  position: fixed; inset: 0;
-  display: grid; place-items: center;
-  pointer-events: none;            /* block clicks when hidden */
-  z-index: 20;
-}
-
 /* Hotspot (center) – invisible until focus/hover; used for tap on mobile */
 .nav-orb {
   width: 56px; height: 56px; border-radius: 50%;
@@ -43,50 +35,6 @@ main {
   pointer-events: auto;
 }
 .nav-orb:focus { outline: 2px solid rgba(0,0,0,.25); outline-offset: 3px; }
-
-/* The radial list is centered; items positioned by angle using --i and --n */
-.radial-list {
-  position: relative;
-  width: 1px; height: 1px;         /* visual center point */
-  pointer-events: none;
-}
-
-.radial-list > li {
-  --r: clamp(8rem, 28vmin, 16rem); /* radius */
-  position: absolute; left: 0; top: 0;
-  transform:
-    rotate(calc(360deg * var(--i) / var(--n)))
-    translate(var(--r))
-    rotate(calc(-360deg * var(--i) / var(--n)));
-  opacity: 0; transform-origin: center;
-  transition: opacity .25s ease, transform .25s ease;
-}
-
-.radial-list a {
-  pointer-events: auto;
-  display: grid; place-items: center;
-  text-decoration: none;
-  color: #111;
-  background: rgba(255,255,255,.82);
-  padding: .55rem .7rem;
-  border-radius: 999px;
-  font-size: clamp(13px, 1.6vw, 16px);
-  box-shadow: 0 .35rem 1rem rgba(0,0,0,.08);
-  backdrop-filter: blur(6px);
-}
-
-/* Reveal logic: on hover of phrase or orb, or when body.reveal (tap) */
-.home-center:hover ~ .radial-nav .radial-list > li,
-.radial-nav:hover .radial-list > li,
-.center-phrase:focus ~ .radial-nav .radial-list > li,
-.nav-orb:focus ~ .radial-list > li,
-body.reveal .radial-list > li {
-  opacity: 1;
-  transform:
-    rotate(calc(360deg * var(--i) / var(--n)))
-    translate(var(--r))
-    rotate(calc(-360deg * var(--i) / var(--n)));
-}
 
 /* ------------- Watermark ------------- */
 .watermark {
@@ -107,9 +55,4 @@ body.reveal .radial-list > li {
   position: absolute !important;
   width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
   clip: rect(0, 0, 1px, 1px); white-space: nowrap; border: 0;
-}
-
-/* Reduce motion */
-@media (prefers-reduced-motion: reduce){
-  .radial-list > li { transition: none; }
 }
