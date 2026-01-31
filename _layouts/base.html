@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     {% include head-meta.html %}
-    <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
-    <script defer src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    {{ '/assets/css/theme.css' | relative_url }}
+    {{ '/assets/js/theme.js' | relative_url }}</script>
   </head>
 
   <body class="layout-{{ page.layout | default: 'page' }}">
@@ -11,12 +11,11 @@
       {{ content }}
     </main>
 
-    {% include radial-nav.html %}
+    {% include edge-nav.html %}
 
     <!-- Watermark (home link; minimal, always present) -->
     <footer class="watermark" aria-label="Site watermark">
-      <a href="{{ '/' | relative_url }}" class="wm-link"
-         aria-label="Home: Luis Alberto Mejia Clavijo">
+      {{ '/' | relative_url }}
         <span class="mark-short">luismcsoul</span>
         <span class="mark-long" aria-hidden="true">Luis Alberto<br>Mejia Clavijo</span>
       </a>
