@@ -41,26 +41,31 @@ def parse_csv_list(v):
     if not v: return []
     return [x.strip() for x in str(v).split(",") if x.strip()]
 
+
 def write_page(row):
     collection = (row.get("collection") or "").strip()
     if collection not in ("poetry","pmd","songs","sculpture","image-text","theory"):
         print(f"Skipping row with invalid collection: {collection}")
         return
 
-# Sub-folder logic for series (poetry) and albums (songs)
-sub = ""
-# Support both 'poetry' (recommended) and legacy 'pmd' for your poetry rows
-if collection in ("poetry", "pmd") and row.get("series"):
-    sub = slugify(row.get("series"))
-elif collection == "songs" and row.get("album"):
-    sub = slugify(row.get("album"))
+    title = (row.get("title") or "").strip()
+    if not title:
+        print("Skipping row without title")
+        return
 
-# Final folder path (with sub-folder if present)
-folder = os.path.join(ROOT, collection, sub) if sub else os.path.join(ROOT, collection)
-os.makedirs(folder, exist_ok=True)
+    slug = (row.get("slug") or "").strip() or slugify(title)
 
-# Final filename
-fname = os.path.join(folder, f"{slug}.md")
+    # ---- Sub-folder logic for series/albums ----
+    sub = ""
+    if collection in ("poetry", "pmd") and row.get("series"):
+        sub = slugify(row.get("series"))
+    elif collection == "songs" and row.get("album"):
+        sub = slugify(row.get("album"))
+
+    folder = os.path.join(ROOT, collection, sub) if sub else os.path.join(ROOT, collection)
+    os.makedirs(folder, exist_ok=True)
+    fname = os.path.join(folder, f"{slug}.md")
+    # --------------------------------------------
 
     # Core fields
     date = (row.get("date") or "").strip()
@@ -69,79 +74,38 @@ fname = os.path.join(folder, f"{slug}.md")
     order = row.get("order") or ""
     schema_type = (row.get("schema_type") or "").strip()
     media_hero = (row.get("media_hero") or "").strip()
-    media_alt = (row.get("media_alt") or "").strip()
-    context_project = (row.get("context_project") or "").strip()
+    media_alt  = (row.get("media_alt")  or "").strip()
+    context_project    = (row.get("context_project")    or "").strip()
     context_philosophy = (row.get("context_philosophy") or "").strip()
     references = parse_csv_list(row.get("references"))
-    keywords = parse_csv_list(row.get("keywords"))
-    edge_left  = (row.get("edge_left")  or "").strip()
-    edge_right = (row.get("edge_right") or "").strip()
-    edge_top   = (row.get("edge_top")   or "").strip()
-    edge_bottom= (row.get("edge_bottom")or "").strip()
+    keywords   = parse_csv_list(row.get("keywords"))
+    edge_left   = (row.get("edge_left")   or "").strip()
+    edge_right  = (row.get("edge_right")  or "").strip()
+    edge_top    = (row.get("edge_top")    or "").strip()
+    edge_bottom = (row.get("edge_bottom") or "").strip()
     published  = to_bool(row.get("published"), default=True)
 
-    # Build front matter
-    fm = []
-    fm.append("---")
-    fm.append(f'title: "{title.replace(\'"\', "\'")}"')
-    fm.append(f"layout: work")
-    if schema_type: fm.append(f'schema_type: "{schema_type}"')
-    if date:        fm.append(f"date: {date}")
-    if excerpt:     fm.append(f'excerpt: "{excerpt.replace(\'"\', "\'")}"')
-    if order != "": fm.append(f"order: {int(order)}")
-    if not published: fm.append("published: false")
+    
+# Build front matter
+fm = []
+# Safer quote strategy: YAML single quotes
+safe_title = (title or "").replace("'", "''")
+fm.append(f"title: '{safe_title}'")
+fm.append("layout: work")
+if schema_type: fm.append(f'schema_type: "{schema_type}"')
+if date:        fm.append(f"date: {date}")
 
-    # context
-    if context_project or context_philosophy:
-        fm.append("context:")
-        if context_project:   fm.append(f"  project: {context_project}")
-        if context_philosophy:fm.append(f"  philosophy: {context_philosophy}")
+if excerpt:
+    safe_excerpt = excerpt.replace("'", "''")
+    fm.append(f"excerpt: '{safe_excerpt}'")
 
-    # media
-    if media_hero or media_alt:
-        fm.append("media:")
-        if media_hero: fm.append(f"  hero: {media_hero}")
-        if media_alt:  fm.append(f"  alt: \"{media_alt.replace('\"','\\'')}\"")
+if order != "": fm.append(f"order: {int(order)}")
+if not published: fm.append("published: false")
 
-    # references
-    if references:
-        fm.append("references:")
-        for r in references:
-            fm.append(f"  - ref: {r}")
-
-    # keywords
-    if keywords:
-        fm.append("keywords:")
-        for k in keywords:
-            fm.append(f"  - {k}")
-
-    # per-page edge overrides (optional)
-    if any([edge_left, edge_right, edge_top, edge_bottom]):
-        fm.append("edges:")
-        if edge_left:   fm.append(f"  left: {edge_left}")
-        if edge_right:  fm.append(f"  right: {edge_right}")
-        if edge_top:    fm.append(f"  top: {edge_top}")
-        if edge_bottom: fm.append(f"  bottom: {edge_bottom}")
-
-    fm.append("---")
-
-    # Write file
-    with open(fname, "w", encoding="utf-8") as f:
-        f.write("\n".join(fm))
-        f.write("\n\n")
-        f.write(body_md.strip())
-        f.write("\n")
-
-    print("Wrote:", os.path.relpath(fname, ROOT))
-
-def main():
-    rows = read_rows()
-    if not rows:
-        print("No rows found in /data/content.xlsx or /data/content.csv")
-        sys.exit(0)
-
-    for row in rows:
-        write_page(row)
-
-if __name__ == "__main__":
-    main()
+# media
+if media_hero or media_alt:
+    fm.append("media:")
+    if media_hero: fm.append(f"  hero: {media_hero}")
+    if media_alt:
+        safe_alt = media_alt.replace("'", "''")
+        fm.append(f"  alt: '{safe_alt}'")
