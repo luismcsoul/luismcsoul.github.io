@@ -1,94 +1,44 @@
-/* ------------- Global canvas (no scroll) ------------- */
+/* ========== Canvas & Typography (no scroll) ========== */
 html, body {
   height: 100svh;
   margin: 0;
-  overflow: hidden;
+  overflow: hidden;                /* museum-like, no page scroll */
   background: #fafafa;
   color: #111;
-  font: 400 17px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  font: 400 17px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 
-/* Main area centers its content */
+/* Center content on every page */
 main {
   height: 100%;
   display: grid;
   place-items: center;
   text-align: center;
   padding: 0 1.25rem;
+  box-sizing: border-box;
 }
 
-/* ------------- Home center phrase ------------- */
-.home-center { height: 100%; display: grid; place-items: center; }
-.center-phrase {
-  background: none; border: 0; cursor: pointer;
-  display: inline-grid; gap: .18rem;
-  font-size: clamp(24px, 4.2vw, 46px);
-  letter-spacing: .02em; line-height: 1.06;
-}
-
-/* Hotspot (center) – invisible until focus/hover; used for tap on mobile */
-.nav-orb {
-  width: 56px; height: 56px; border-radius: 50%;
-  background: transparent; border: 0;
-  position: absolute; left: 50%; top: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: auto;
-}
-.nav-orb:focus { outline: 2px solid rgba(0,0,0,.25); outline-offset: 3px; }
-
-/* ------------- Watermark ------------- */
-.watermark {
-  position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%);
-  z-index: 30; user-select: none;
-}
-.wm-link {
-  text-decoration: none; color: #000; opacity: .08;
-  transition: opacity .18s ease;
-}
-.wm-link:hover, .wm-link:focus { opacity: .22; }
-.mark-long { display: none; }
-.wm-link:hover .mark-short, .wm-link:focus .mark-short { display: none; }
-.wm-link:hover .mark-long,  .wm-link:focus .mark-long  { display: block; }
-
-/* ------------- A11y ------------- */
-.sr-only {
-  position: absolute !important;
-  width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
-  clip: rect(0, 0, 1px, 1px); white-space: nowrap; border: 0;
-}
-
-
-/* ------------- Canvas (no scroll) ------------- */
-html, body { height: 100svh; margin: 0; overflow: hidden; }
-body {
-  background: #fafafa; color: #111;
-  font: 400 17px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-}
-
-/* Main centers its content */
-main { height: 100%; display: grid; place-items: center; text-align: center; padding: 0 1.25rem; }
-
-/* ------------- Home center text ------------- */
+/* ========== Home center text ========== */
 .home-center { height: 100%; display: grid; place-items: center; }
 
 .center-phrase {
+  background: none; border: 0; cursor: default;
   display: inline-grid; gap: .18rem;
   letter-spacing: .02em; line-height: 1.06;
   font-size: clamp(24px, 4.2vw, 46px);
   will-change: opacity, clip-path, filter;
 }
 
-/* Brush stroke reveal: a single soft wipe, slightly delayed */
+/* Brush-stroke reveal (subtle wipe-in) */
 @keyframes brushReveal {
   from { clip-path: inset(0 100% 0 0 round .5rem); filter: blur(4px) saturate(.85); opacity: .92; }
   60%  { clip-path: inset(0 0 0 0 round .5rem);   filter: blur(0)   saturate(1);    opacity: 1;  }
   to   { clip-path: inset(0 0 0 0 round .5rem);   filter: blur(0);                      opacity: 1;  }
 }
-.brush-reveal {
-  animation: brushReveal 1.6s ease-out 400ms both;
-}
+.brush-reveal { animation: brushReveal 1.6s ease-out 400ms both; }
 
-/* Evaporation: uneven, very slow fade to watermark (not fully gone) */
+/* Evaporation to watermark (very slow, uneven; stays legible at the end) */
 @keyframes unevenEvaporate {
   0%   { opacity: 1   }
   10%  { opacity: .92 }
@@ -99,53 +49,62 @@ main { height: 100%; display: grid; place-items: center; text-align: center; pad
   65%  { opacity: .60 }
   78%  { opacity: .48 }
   90%  { opacity: .32 }
-  100% { opacity: .16 } /* end as watermark, still legible */
+  100% { opacity: .16 } /* watermark endpoint */
 }
-.evaporate {
-  animation: unevenEvaporate 60s ease-out 2.2s both;
-}
+.evaporate { animation: unevenEvaporate 60s ease-out 2.2s both; }
 
-/* ------------- Edge Navigation (desktop hover) ------------- */
-.edge-nav { position: fixed; inset: 0; pointer-events: none; z-index: 30; }
+/* ========== Edge Navigation (minimal arrows) ========== */
+.edge-nav {
+  position: fixed; inset: 0;
+  pointer-events: none;                     /* arrows only receive pointer in their areas */
+  z-index: 30;
+}
 .edge {
   position: absolute; pointer-events: auto; text-decoration: none; color: inherit;
   opacity: .05; transition: opacity .15s ease, transform .15s ease;
 }
 
-/* Hit boxes placed at the four borders */
+/* Large, invisible hit boxes at the borders (so arrows never overlay the text) */
 .edge-left   { left: 0;   top: 50%; transform: translateY(-50%);  padding: 18vh 2vw; }
 .edge-right  { right: 0;  top: 50%; transform: translateY(-50%);  padding: 18vh 2vw; }
 .edge-top    { top: 0;    left: 50%; transform: translateX(-50%); padding: 2vh 18vw; }
 .edge-bottom { bottom: 0; left: 50%; transform: translateX(-50%); padding: 2vh 18vw; }
 
-/* Minimal “watermark arrow” (pure CSS) */
+/* Minimal “watermark arrow” (pure CSS strokes) */
 .edge .arrow {
-  display: block; width: 26px; height: 26px; position: relative;
-  margin: 0 auto;
+  display: block; width: 26px; height: 26px; position: relative; margin: 0 auto;
 }
-.edge-left  .arrow::before,
-.edge-right .arrow::before,
-.edge-top   .arrow::before,
-.edge-bottom.arrow::before { content: ""; position: absolute; inset: 0; }
 
-/* Arrow shapes using borders */
-.edge-left  .arrow { border-left: 1.5px solid currentColor; border-top: 1.5px solid currentColor; transform: rotate(-45deg); }
-.edge-right .arrow { border-right:1.5px solid currentColor; border-top: 1.5px solid currentColor; transform: rotate(45deg); }
-.edge-top   .arrow { border-top: 1.5px solid currentColor; border-left:1.5px solid currentColor; transform: rotate(45deg); }
-.edge-bottom.arrow { border-bottom:1.5px solid currentColor; border-left:1.5px solid currentColor; transform: rotate(-45deg); }
+/* Each arrow is a rotated L-stroke; feel free to tweak thickness */
+.edge-left  .arrow { border-left: 1.5px solid currentColor; border-top:    1.5px solid currentColor; transform: rotate(-45deg); }
+.edge-right .arrow { border-right:1.5px solid currentColor; border-top:    1.5px solid currentColor; transform: rotate(45deg);  }
+.edge-top   .arrow { border-top:  1.5px solid currentColor; border-left:   1.5px solid currentColor; transform: rotate(45deg);  }
+.edge-bottom .arrow{ border-bottom:1.5px solid currentColor; border-left:  1.5px solid currentColor; transform: rotate(-45deg); }
 
-/* Subtle reveal on approach */
+/* Slight visibility increase when the cursor approaches */
 .edge:hover, .edge:focus { opacity: .20; transform: translateZ(0) scale(1.02); }
 
-/* ------------- Watermark ------------- */
-.watermark { position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%); z-index: 40; user-select: none; }
-.wm-link { text-decoration: none; color: #000; opacity: .08; transition: opacity .18s ease; }
+/* ========== Watermark (global home link) ========== */
+.watermark {
+  position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%);
+  z-index: 40; user-select: none;
+}
+.wm-link {
+  text-decoration: none; color: #000; opacity: .08;
+  transition: opacity .18s ease;
+}
 .wm-link:hover, .wm-link:focus { opacity: .22; }
 .mark-long { display: none; }
 .wm-link:hover .mark-short, .wm-link:focus .mark-short { display: none; }
 .wm-link:hover .mark-long,  .wm-link:focus .mark-long  { display: block; }
 
-/* ------------- Accessibility ------------- */
+/* ========== Accessibility & Motion Preferences ========== */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0, 0, 1px, 1px); white-space: nowrap; border: 0;
+}
+
 @media (prefers-reduced-motion: reduce){
   .brush-reveal, .evaporate { animation: none !important; }
 }
