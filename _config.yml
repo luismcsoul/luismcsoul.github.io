@@ -16,13 +16,13 @@ collections:
     permalink: /songs/:path/
   sculpture:
     output: true
-    permalink: /sculpture/:slug/
+    permalink: /sculpture/:path/
   image-text:
     output: true
-    permalink: /image-text/:slug/
+    permalink: /image-text/:path/
   theory:
     output: true
-    permalink: /theory/:slug/
+    permalink: /theory/:path/
 
 defaults:
   - scope: { path: "", type: pmd }
