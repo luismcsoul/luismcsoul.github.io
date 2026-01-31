@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     {% include head-meta.html %}
-    {{ '/assets/css/theme.css' | relative_url }}
-    {{ '/assets/js/theme.js' | relative_url }}</script>
+    <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
+    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
   </head>
 
   <body class="layout-{{ page.layout | default: 'page' }}">
@@ -15,7 +15,7 @@
 
     <!-- Watermark (home link; minimal, always present) -->
     <footer class="watermark" aria-label="Site watermark">
-      {{ '/' | relative_url }}
+      <a href="{{ '/' | relative_url }}" class="wm-link">
         <span class="mark-short">luismcsoul</span>
         <span class="mark-long" aria-hidden="true">Luis Alberto<br>Mejia Clavijo</span>
       </a>
