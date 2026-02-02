@@ -1,60 +1,30 @@
-{% assign nav_prev_in   = page.nav.prev_in_collection    | default: nil %}
-{% assign nav_next_in   = page.nav.next_in_collection    | default: nil %}
-{% assign nav_prev_coll = page.nav.prev_collection       | default: nil %}
-{% assign nav_next_coll = page.nav.next_collection       | default: nil %}
+{%- assign nav_prev_in   = page.nav.prev_in_collection  | default: nil -%}
+{%- assign nav_next_in   = page.nav.next_in_collection  | default: nil -%}
+{%- assign nav_prev_coll = page.nav.prev_collection     | default: nil -%}
+{%- assign nav_next_coll = page.nav.next_collection     | default: nil -%}
 
 <div class="edge-nav">
+  {%- if nav_prev_in -%}
+    <a class="edge edge-left" data-edge="left" href="{{ nav_prev_in | escape }}">
+      <span class="arrow"></span>
+    </a>
+  {%- endif -%}
 
-  <!-- LEFT -->
-  <a
-    class="edge edge-left"
-    data-edge="left"
-    {% if nav_prev_in %}
-      href="{{ nav_prev_in }}"
-    {% else %}
-      aria-disabled="true"
-    {% endif %}
-  >
-    <span class="arrow"></span>
-  </a>
+  {%- if nav_next_in -%}
+    <a class="edge edge-right" data-edge="right" href="{{ nav_next_in | escape }}">
+      <span class="arrow"></span>
+    </a>
+  {%- endif -%}
 
-  <!-- RIGHT -->
-  <a
-    class="edge edge-right"
-    data-edge="right"
-    {% if nav_next_in %}
-      href="{{ nav_next_in }}"
-    {% else %}
-      aria-disabled="true"
-    {% endif %}
-  >
-    <span class="arrow"></span>
-  </a>
+  {%- if nav_prev_coll -%}
+    <a class="edge edge-top" data-edge="top" href="{{ nav_prev_coll | escape }}">
+      <span class="arrow"></span>
+    </a>
+  {%- endif -%}
 
-  <!-- TOP -->
-  <a
-    class="edge edge-top"
-    data-edge="top"
-    {% if nav_prev_coll %}
-      href="{{ nav_prev_coll }}"
-    {% else %}
-      aria-disabled="true"
-    {% endif %}
-  >
-    <span class="arrow"></span>
-  </a>
-
-  <!-- BOTTOM -->
-  <a
-    class="edge edge-bottom"
-    data-edge="bottom"
-    {% if nav_next_coll %}
-      href="{{ nav_next_coll }}"
-    {% else %}
-      aria-disabled="true"
-    {% endif %}
-  >
-    <span class="arrow"></span>
-  </a>
-
-/div>
+  {%- if nav_next_coll -%}
+    <a class="edge edge-bottom" data-edge="bottom" href="{{ nav_next_coll | escape }}">
+      <span class="arrow"></span>
+    </a>
+  {%- endif -%}
+</div>
