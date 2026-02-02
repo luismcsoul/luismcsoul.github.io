@@ -13,3 +13,13 @@ layout: base
     {{ content }}
   </div>
 </article>
+
+{%- comment -%}
+Inject minimal, watermark arrows with keyboard & swipe navigation.
+Relies on the following front matter keys (populated by convert_content.py):
+page.nav.prev_in_collection
+page.nav.next_in_collection
+page.nav.prev_collection
+page.nav.next_collection
+{%- endcomment -%}
+{% include edge-nav.html %}
