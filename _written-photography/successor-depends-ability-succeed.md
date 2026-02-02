@@ -10,12 +10,19 @@ keywords:
 - ability
 - succeed
 excerpt: SUCCESSOR  Depends on the ability to succeed.
-media_hero: ''
-media_alt: ''
-taglines: ''
-references: ''
-album: ''
+media_hero: .nan
+media_alt: .nan
+taglines: .nan
+references: .nan
+album: .nan
 permalink: /written-photography/successor-depends-ability-succeed/
+managed_by: spreadsheet
+last_generated: '2026-02-02T16:51:50.547323Z'
+nav:
+  prev_in_collection: /written-photography/sleeping-bag-anaconda-almost-entirely/
+  next_in_collection: /written-photography/tao-mistery-mastery-twins-both/
+  prev_collection: null
+  next_collection: /photograph/frog/
 ---
 
 SUCCESSOR

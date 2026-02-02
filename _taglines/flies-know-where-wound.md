@@ -10,12 +10,19 @@ keywords:
 - where
 - wound
 excerpt: The flies  know  where is my wound.
-media_hero: ''
-media_alt: ''
-taglines: ''
-references: ''
-album: ''
+media_hero: .nan
+media_alt: .nan
+taglines: .nan
+references: .nan
+album: .nan
 permalink: /taglines/flies-know-where-wound/
+managed_by: spreadsheet
+last_generated: '2026-02-02T16:51:50.547323Z'
+nav:
+  prev_in_collection: /taglines/symmetry-mirrored-code/
+  next_in_collection: /taglines/paradise-arrive-awake/
+  prev_collection: /photograph/frog/
+  next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
 ---
 
 The flies 

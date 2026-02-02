@@ -1,0 +1,30 @@
+---
+layout: work
+collection: taglines
+title: A basketball's free throw
+slug: basketball-s-free-throw-never
+schema_type: Statement
+keywords:
+- basketball
+- free
+- throw
+- never
+- lies
+excerpt: A basketball's free throw never lies.
+media_hero: .nan
+media_alt: .nan
+taglines: .nan
+references: .nan
+album: .nan
+permalink: /taglines/basketball-s-free-throw-never/
+managed_by: spreadsheet
+last_generated: '2026-02-02T16:51:50.547323Z'
+nav:
+  prev_in_collection: null
+  next_in_collection: /taglines/battery-increases-size-order-attract/
+  prev_collection: /photograph/frog/
+  next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+---
+
+A basketball's free throw
+never lies.

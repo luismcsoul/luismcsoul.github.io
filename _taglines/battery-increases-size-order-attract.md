@@ -1,0 +1,35 @@
+---
+layout: work
+collection: taglines
+title: A Battery
+slug: battery-increases-size-order-attract
+schema_type: CreativeWork
+keywords:
+- battery
+- increases
+- size
+- order
+- attract
+- female
+- counterpart
+excerpt: A battery increases his size in order to attract a female counterpart.
+media_hero: .nan
+media_alt: .nan
+taglines: .nan
+references: .nan
+album: .nan
+permalink: /taglines/battery-increases-size-order-attract/
+managed_by: spreadsheet
+last_generated: '2026-02-02T16:51:50.547323Z'
+nav:
+  prev_in_collection: /taglines/basketball-s-free-throw-never/
+  next_in_collection: /taglines/gun-retrogrades-bullets-magazine/
+  prev_collection: /photograph/frog/
+  next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+---
+
+A battery
+increases his size
+in order to
+attract a female
+counterpart.

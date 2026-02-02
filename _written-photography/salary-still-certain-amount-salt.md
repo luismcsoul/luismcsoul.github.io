@@ -11,12 +11,19 @@ keywords:
 - amount
 - salt
 excerpt: YOUR SALARY  is still a certain  amount of salt.
-media_hero: ''
-media_alt: ''
-taglines: ''
-references: ''
-album: ''
+media_hero: .nan
+media_alt: .nan
+taglines: .nan
+references: .nan
+album: .nan
 permalink: /written-photography/salary-still-certain-amount-salt/
+managed_by: spreadsheet
+last_generated: '2026-02-02T16:51:50.547323Z'
+nav:
+  prev_in_collection: /written-photography/t-go-back-time-move/
+  next_in_collection: null
+  prev_collection: null
+  next_collection: /photograph/frog/
 ---
 
 YOUR SALARY

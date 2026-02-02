@@ -1,0 +1,33 @@
+---
+layout: work
+collection: written-photography
+title: BY THE CUT
+slug: cut-where-dead-ends-meet
+schema_type: CreativeWork
+keywords:
+- where
+- dead
+- ends
+- meet
+excerpt: BY THE CUT  See you where the two dead ends meet.
+media_hero: .nan
+media_alt: .nan
+taglines: .nan
+references: .nan
+album: .nan
+permalink: /written-photography/cut-where-dead-ends-meet/
+managed_by: spreadsheet
+last_generated: '2026-02-02T16:51:50.547323Z'
+nav:
+  prev_in_collection: /written-photography/bitcoin-test-net-further-energetic/
+  next_in_collection: /written-photography/cinderella-goes-sleep-midnight-because/
+  prev_collection: null
+  next_collection: /photograph/frog/
+---
+
+BY THE CUT
+
+See you
+where
+the two dead ends
+meet.
