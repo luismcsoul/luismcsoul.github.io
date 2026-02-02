@@ -14,6 +14,7 @@ jobs:
       contents: write
 
     steps:
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -29,7 +30,7 @@ jobs:
 
       - name: Ensure collection folders exist
         run: |
-          mkdir -p _written-photography _sculpture _songs _taglines _visualartwork _article _capsule-review _epistolary _personal-micro-dictionary _photograph
+          mkdir -p _written-photography _photograph _taglines _personal-micro-dictionary _visualartwork _epistolary _sculpture _songs _article _capsule-review
 
       - name: Convert spreadsheet to Jekyll collections
         run: |
@@ -40,8 +41,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
+
           if ! git diff --cached --quiet; then
+            echo "Changes detected, committing..."
             git commit -m "chore: generate Jekyll collections from Excel"
             git push
           else
             echo "No changes to commit"
+          fi
