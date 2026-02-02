@@ -6,8 +6,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Add/merge this into _config.yml
 collections:
+  written-photography:
+    output: true
+  sculpture:
+    output: true
+  songs:
+    output: true
+  taglines:
+    output: true
+  visualartwork:
+    output: true
   article:
     output: true
   capsule-review:
@@ -18,18 +27,7 @@ collections:
     output: true
   photograph:
     output: true
-  sculpture:
-    output: true
-  songs:
-    output: true
-  taglines:
-    output: true
-  visualartwork:
-    output: true
-  written-photography:
-    output: true
 
-# Optional but recommended for consistency
 permalink: /:collection/:slug/
 
 defaults:
