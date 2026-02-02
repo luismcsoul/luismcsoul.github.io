@@ -14,8 +14,7 @@ keywords:
 - shell
 - human-shaped
 - exoskeleton
-excerpt: THE BACTERIA  Inside our guts configure a smart organism, we are just its
-  shell.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -23,7 +22,8 @@ references: .nan
 album: .nan
 permalink: /written-photography/bacteria-inside-guts-configure-smart/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /written-photography/ants-came-took-away-binary/
   next_in_collection: /written-photography/cells-understand-everything-know-hadn/

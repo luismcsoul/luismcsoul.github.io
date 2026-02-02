@@ -14,8 +14,7 @@ keywords:
 - clay
 - pronounced
 - names
-excerpt: THE SLAVES  Were finally free when the archaeologist unearthed that clay
-  and pronounced their names.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -23,7 +22,8 @@ references: .nan
 album: .nan
 permalink: /written-photography/slaves-finally-free-when-archaeologist/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /written-photography/cells-understand-everything-know-hadn/
   next_in_collection: /written-photography/time-stamps-work-progress-until/

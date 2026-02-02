@@ -9,7 +9,7 @@ keywords:
 - limits
 - when
 - heels
-excerpt: '"You don''t have limits when you are on heels"'
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -17,11 +17,12 @@ references: .nan
 album: .nan
 permalink: /epistolary/heels-have-limits-when/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: null
   next_in_collection: /epistolary/wellness-only-operates-presence/
-  prev_collection: /visualartwork/bemba-mask/
+  prev_collection: /visualartwork/sound-minded-star-of-affinity-rhcp-michael-moorcock/
   next_collection: /sculpture/chicken-heart-takotsubo-cardiomyopathy-broken-heart-chicken-hear/
 ---
 

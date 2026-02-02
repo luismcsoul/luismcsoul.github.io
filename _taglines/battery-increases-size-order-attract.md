@@ -12,7 +12,7 @@ keywords:
 - attract
 - female
 - counterpart
-excerpt: A battery increases his size in order to attract a female counterpart.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -20,11 +20,12 @@ references: .nan
 album: .nan
 permalink: /taglines/battery-increases-size-order-attract/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /taglines/basketball-s-free-throw-never/
   next_in_collection: /taglines/gun-retrogrades-bullets-magazine/
-  prev_collection: /photograph/frog/
+  prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
 ---
 

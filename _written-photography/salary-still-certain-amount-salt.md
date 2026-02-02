@@ -10,7 +10,7 @@ keywords:
 - certain
 - amount
 - salt
-excerpt: YOUR SALARY  is still a certain  amount of salt.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -18,7 +18,8 @@ references: .nan
 album: .nan
 permalink: /written-photography/salary-still-certain-amount-salt/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /written-photography/t-go-back-time-move/
   next_in_collection: null

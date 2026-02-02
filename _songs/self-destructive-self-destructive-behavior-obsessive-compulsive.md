@@ -8,8 +8,7 @@ keywords:
 - self-destructive behavior
 - obsessive-compulsive disorder
 - hoarding disorder
-excerpt: SELF-DESTRUCTIVE  Your portraits are getting outdated in the social network
-  you used to check yourself.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -17,11 +16,12 @@ references: self-destructive behavior, obsessive-compulsive disorder, hoarding d
 album: Animal
 permalink: /songs/self-destructive-self-destructive-behavior-obsessive-compulsive/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /songs/native-monocultures-monotony-standarization/
   next_in_collection: /songs/trigger-emotional-triggers-hot-buttons-emotional-flooding-perpet/
-  prev_collection: /sculpture/chicken-heart-takotsubo-cardiomyopathy-broken-heart-chicken-hear/
+  prev_collection: /sculpture/visible-antoine-de-saint-exupery-the-little-prince/
   next_collection: /article/yuko-shimizu-contemporary-heroines-yuko-shimizu/
 ---
 

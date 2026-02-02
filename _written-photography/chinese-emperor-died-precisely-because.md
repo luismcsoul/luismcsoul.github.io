@@ -15,8 +15,7 @@ keywords:
 - mercury
 - elixir
 - towards
-excerpt: A CHINESE EMPEROR  died precisely because of his belief in drinking mercury
-  as an elixir towards immortality.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -24,7 +23,8 @@ references: .nan
 album: .nan
 permalink: /written-photography/chinese-emperor-died-precisely-because/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: null
   next_in_collection: /written-photography/small-tie-perfect-coat-sternum/

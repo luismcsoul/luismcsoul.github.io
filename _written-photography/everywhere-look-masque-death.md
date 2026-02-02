@@ -9,7 +9,7 @@ keywords:
 - look
 - masque
 - death
-excerpt: EVERYWHERE I LOOK  "The Masque of the Red Death"
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -17,7 +17,8 @@ references: .nan
 album: .nan
 permalink: /written-photography/everywhere-look-masque-death/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /written-photography/every-number-invisibly-multiplied-divided/
   next_in_collection: /written-photography/red-green-there-millions-steps/

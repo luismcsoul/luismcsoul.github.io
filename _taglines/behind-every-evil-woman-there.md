@@ -11,7 +11,7 @@ keywords:
 - woman
 - there
 - asshole
-excerpt: Behind every evil woman, there's a big asshole.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -19,11 +19,12 @@ references: .nan
 album: .nan
 permalink: /taglines/behind-every-evil-woman-there/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /taglines/attention-currency-always/
   next_in_collection: /taglines/broken-things-bear-name/
-  prev_collection: /photograph/frog/
+  prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
 ---
 

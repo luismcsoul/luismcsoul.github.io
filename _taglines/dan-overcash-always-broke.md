@@ -8,7 +8,7 @@ keywords:
 - overcash
 - always
 - broke
-excerpt: Dan Overcash is always broke.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -16,11 +16,12 @@ references: .nan
 album: .nan
 permalink: /taglines/dan-overcash-always-broke/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /taglines/broken-things-bear-name/
   next_in_collection: /taglines/deconspire-conspiracy-theory/
-  prev_collection: /photograph/frog/
+  prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
 ---
 

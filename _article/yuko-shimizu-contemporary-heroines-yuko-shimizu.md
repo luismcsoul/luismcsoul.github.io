@@ -7,8 +7,7 @@ schema_type: Article
 keywords:
 - yuko shimizu
 - contemporary art theory
-excerpt: 'YUKO SHIMIZU: CONTEMPORARY HEROINES  How to combine Japanese and American
-  illustration?'
+excerpt: .nan
 media_hero: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhn-O377LDicZZB3CQlRvYGaGmJBseYrKfkkEdXhH_eovb7jLxIgGpsPi9ZMvTahtsxSY7i1UGqi6i61xN7IYfWWtXvXV_cI8umI5r6jD3HkkGkRxObqWIqGRD2j-ziW7ZqIWKW16jyaA/s1600/bEWYUre6Qz6vcXdqiaqD3H-650-80.jpg
 media_alt: "Yuko Shimizu, illustration for cover and products: マキシマム・ザ・ホルモン (Maximum\
   \ the Hormone) (Japanese metal band) \nDVD Deka Vs Deka (Nov 2015 released)"
@@ -17,11 +16,12 @@ references: Yuko Shimizu, contemporary art theory
 album: .nan
 permalink: /article/yuko-shimizu-contemporary-heroines-yuko-shimizu/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: null
   next_in_collection: null
-  prev_collection: /songs/armored-heart-emotional-withdrawal-emotional-numbing-emotional-d/
+  prev_collection: /songs/unintended-permanence-every-character-need/
   next_collection: /capsule-review/painted-fire-kwon-taek-2002-like/
 ---
 

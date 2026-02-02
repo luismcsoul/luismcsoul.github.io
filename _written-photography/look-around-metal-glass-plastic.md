@@ -15,8 +15,7 @@ keywords:
 - colored
 - coatings
 - have
-excerpt: LOOK AROUND  All metal, glass, plastic and concrete, together with their  colored
-  coatings, have been cooked for you.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -24,7 +23,8 @@ references: .nan
 album: .nan
 permalink: /written-photography/look-around-metal-glass-plastic/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /written-photography/infinity-perspective/
   next_in_collection: /written-photography/mind-where-convergent-evolution-operating/

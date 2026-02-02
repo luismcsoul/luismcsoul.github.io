@@ -15,7 +15,7 @@ keywords:
 - sitting
 - there
 - seeing
-excerpt: ONCE I SAT DOWN  In Zen Meditation.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -23,7 +23,8 @@ references: .nan
 album: .nan
 permalink: /written-photography/once-sat-down-meditation-since/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /written-photography/mountains-destroyed-tear-down-axis/
   next_in_collection: /written-photography/orchestra-groups-women-have-started/

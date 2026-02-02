@@ -10,7 +10,7 @@ keywords:
 - room
 - toys
 - didn
-excerpt: In the living room I have now the toys I didn't have as a kid.
+excerpt: .nan
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
@@ -18,11 +18,12 @@ references: .nan
 album: .nan
 permalink: /taglines/living-room-have-toys-didn/
 managed_by: spreadsheet
-last_generated: '2026-02-02T16:51:50.547323Z'
+last_generated: '2026-02-02T17:08:07.174539Z'
+is_homepage: false
 nav:
   prev_in_collection: /taglines/if-audience-big-nothing-important/
   next_in_collection: /taglines/messenger-message/
-  prev_collection: /photograph/frog/
+  prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
 ---
 
