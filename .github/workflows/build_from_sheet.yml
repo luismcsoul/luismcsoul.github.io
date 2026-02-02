@@ -3,17 +3,15 @@ name: Generate pages from spreadsheet
 on:
   push:
     paths:
-      - 'data/content.xlsx'
-      - 'data/content.csv'
+      - 'data/luismcsoul_content.xlsx'
       - 'scripts/**'
   workflow_dispatch: {}
 
 jobs:
   build-pages:
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write   # to commit generated files
+      contents: write
 
     steps:
       - name: Checkout
@@ -27,9 +25,13 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install pandas openpyxl || true
+          pip install pandas openpyxl pyyaml
 
-      - name: Convert spreadsheet to Markdown pages
+      - name: Ensure collection folders exist
+        run: |
+          mkdir -p _written-photography _sculpture _songs _taglines _visualartwork _article _capsule-review _epistolary _personal-micro-dictionary _photograph
+
+      - name: Convert spreadsheet to Jekyll collections
         run: |
           python scripts/convert_content.py
 
@@ -39,14 +41,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "chore: generate pages from spreadsheet"
+            git commit -m "chore: generate Jekyll collections from Excel"
             git push
           else
             echo "No changes to commit"
-          fi
-
-- name: Unzip Jekyll collections content
-  if: hashFiles('jekyll_collections_content.zip') != ''
-  run: |
-    unzip -o jekyll_collections_content.zip -d .
-    cp -R jekyll_content/_* .
