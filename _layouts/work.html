@@ -2,24 +2,24 @@
 layout: base
 ---
 
-<article class="work" itemscope itemtype="https://schema.org/{{ page.schema_type | default: 'CreativeWork' }}">
-  {% if page.title and page.title != "" %}
-  <header class="visually-hidden">
-    <h1 itemprop="name">{{ page.title }}</h1>
-  </header>
-  {% endif %}
+<main>
+  <article class="work brush-reveal evaporate" 
+           itemscope 
+           itemtype="https://schema.org/{{ page.schema_type | default: 'CreativeWork' }}">
 
-  <div class="work-body" itemprop="text">
-    {{ content }}
-  </div>
-</article>
+    {% comment %}
+    Titles must NEVER appear visually.
+    Using visually-hidden class keeps semantic SEO without showing text.
+    {% endcomment %}
+    {% if page.title %}
+      <h1 class="sr-only">{{ page.title }}</h1>
+    {% endif %}
 
-{%- comment -%}
-Inject minimal, watermark arrows with keyboard & swipe navigation.
-Relies on the following front matter keys (populated by convert_content.py):
-page.nav.prev_in_collection
-page.nav.next_in_collection
-page.nav.prev_collection
-page.nav.next_collection
-{%- endcomment -%}
+    <div class="work-body" itemprop="text">
+      {{ content | newline_to_br }}
+    </div>
+
+  </article>
+</main>
+
 {% include edge-nav.html %}
