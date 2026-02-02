@@ -15,7 +15,7 @@ references: Jose Saramago, Blindness
 album: Animal
 permalink: /songs/blindness-jose-saramago/
 managed_by: spreadsheet
-last_generated: '2026-02-02T17:08:07.174539Z'
+last_generated: '2026-02-02T17:08:32.586313Z'
 is_homepage: false
 nav:
   prev_in_collection: /songs/armored-heart-emotional-withdrawal-emotional-numbing-emotional-d/
