@@ -44,3 +44,9 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+- name: Unzip Jekyll collections content
+  if: hashFiles('jekyll_collections_content.zip') != ''
+  run: |
+    unzip -o jekyll_collections_content.zip -d .
+    cp -R jekyll_content/_* .
