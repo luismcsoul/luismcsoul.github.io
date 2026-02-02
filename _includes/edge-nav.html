@@ -1,30 +1,30 @@
-{%- assign nav_prev_in   = page.nav.prev_in_collection  | default: nil -%}
-{%- assign nav_next_in   = page.nav.next_in_collection  | default: nil -%}
-{%- assign nav_prev_coll = page.nav.prev_collection     | default: nil -%}
-{%- assign nav_next_coll = page.nav.next_collection     | default: nil -%}
+{%- assign L = page.nav.prev_in_collection  | default: nil -%}
+{%- assign R = page.nav.next_in_collection  | default: nil -%}
+{%- assign U = page.nav.prev_collection     | default: nil -%}
+{%- assign D = page.nav.next_collection     | default: nil -%}
 
 <div class="edge-nav">
-  {%- if nav_prev_in -%}
-    <a class="edge edge-left" data-edge="left" href="{{ nav_prev_in | escape }}">
-      <span class="arrow"></span>
-    </a>
+  {%- if L -%}
+  <a class="edge edge-left"  data-edge="left"   href="{{ L | escape }}">
+    <span class="arrow"></span>
+  </a>
   {%- endif -%}
 
-  {%- if nav_next_in -%}
-    <a class="edge edge-right" data-edge="right" href="{{ nav_next_in | escape }}">
-      <span class="arrow"></span>
-    </a>
+  {%- if R -%}
+  <a class="edge edge-right" data-edge="right"  href="{{ R | escape }}">
+    <span class="arrow"></span>
+  </a>
   {%- endif -%}
 
-  {%- if nav_prev_coll -%}
-    <a class="edge edge-top" data-edge="top" href="{{ nav_prev_coll | escape }}">
-      <span class="arrow"></span>
-    </a>
+  {%- if U -%}
+  <a class="edge edge-top"   data-edge="top"    href="{{ U | escape }}">
+    <span class="arrow"></span>
+  </a>
   {%- endif -%}
 
-  {%- if nav_next_coll -%}
-    <a class="edge edge-bottom" data-edge="bottom" href="{{ nav_next_coll | escape }}">
-      <span class="arrow"></span>
-    </a>
+  {%- if D -%}
+  <a class="edge edge-bottom" data-edge="bottom" href="{{ D | escape }}">
+    <span class="arrow"></span>
+  </a>
   {%- endif -%}
 </div>
