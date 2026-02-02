@@ -6,23 +6,31 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-
+# Add/merge this into _config.yml
 collections:
-  poetry:
+  article:
     output: true
-    permalink: /poetry/:path/
-  songs:
+  capsule-review:
     output: true
-    permalink: /songs/:path/
+  epistolary:
+    output: true
+  personal-micro-dictionary:
+    output: true
+  photograph:
+    output: true
   sculpture:
     output: true
-    permalink: /sculpture/:path/
-  image-text:
+  songs:
     output: true
-    permalink: /image-text/:path/
-  theory:
+  taglines:
     output: true
-    permalink: /theory/:path/
+  visualartwork:
+    output: true
+  written-photography:
+    output: true
+
+# Optional but recommended for consistency
+permalink: /:collection/:slug/
 
 defaults:
   - scope: { path: "", type: pmd }
