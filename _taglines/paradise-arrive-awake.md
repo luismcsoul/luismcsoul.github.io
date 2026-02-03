@@ -16,7 +16,7 @@ media_alt: Puppeteer Walid Rashed performing for kids on top of the ruins of the
 taglines: ''
 references: .nan
 album: .nan
-permalink: /taglines/paradise-arrive-awake/
+permalink: /
 managed_by: spreadsheet
 last_generated: '2026-02-02T17:08:32.586313Z'
 is_homepage: false
