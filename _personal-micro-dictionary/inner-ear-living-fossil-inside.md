@@ -18,7 +18,7 @@ references: .nan
 album: .nan
 permalink: /personal-micro-dictionary/inner-ear-living-fossil-inside/
 managed_by: spreadsheet
-last_generated: '2026-02-03T05:37:58.622789Z'
+last_generated: '2026-02-03T07:01:28.385868Z'
 is_homepage: false
 nav:
   prev_in_collection: /personal-micro-dictionary/badge-heaviest-object-carry/

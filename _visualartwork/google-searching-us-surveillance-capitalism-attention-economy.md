@@ -16,7 +16,7 @@ references: surveillance capitalism, attention economy, dystopian dissimulation
 album: .nan
 permalink: /visualartwork/google-searching-us-surveillance-capitalism-attention-economy/
 managed_by: spreadsheet
-last_generated: '2026-02-03T05:37:58.622789Z'
+last_generated: '2026-02-03T07:01:28.385868Z'
 is_homepage: false
 nav:
   prev_in_collection: /visualartwork/golden-snub-nosed-monkey/

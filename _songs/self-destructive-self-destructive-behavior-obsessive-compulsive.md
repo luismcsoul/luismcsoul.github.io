@@ -16,7 +16,7 @@ references: self-destructive behavior, obsessive-compulsive disorder, hoarding d
 album: Animal
 permalink: /songs/self-destructive-self-destructive-behavior-obsessive-compulsive/
 managed_by: spreadsheet
-last_generated: '2026-02-03T05:37:58.622789Z'
+last_generated: '2026-02-03T07:01:28.385868Z'
 is_homepage: false
 nav:
   prev_in_collection: /songs/native-monocultures-monotony-standarization/
