@@ -21,7 +21,7 @@ references: Emotional triggers, Hot buttons, Emotional flooding, perpetual probl
 album: Counterfeit
 permalink: /songs/trigger-emotional-triggers-hot-buttons-emotional-flooding-perpet/
 managed_by: spreadsheet
-last_generated: '2026-02-03T07:01:28.385868Z'
+last_generated: '2026-02-03T07:02:06.390178Z'
 is_homepage: false
 nav:
   prev_in_collection: /songs/self-destructive-self-destructive-behavior-obsessive-compulsive/

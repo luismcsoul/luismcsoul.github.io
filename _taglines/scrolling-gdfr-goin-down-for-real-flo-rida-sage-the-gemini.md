@@ -20,7 +20,7 @@ references: G.D.F.R., Goin' Down For Real, Flo Rida, Sage the Gemini, Lookas, My
 album: .nan
 permalink: /taglines/scrolling-gdfr-goin-down-for-real-flo-rida-sage-the-gemini/
 managed_by: spreadsheet
-last_generated: '2026-02-03T07:01:28.385868Z'
+last_generated: '2026-02-03T07:02:06.390178Z'
 is_homepage: false
 nav:
   prev_in_collection: /taglines/reverse-engineer-fantasies-romance/

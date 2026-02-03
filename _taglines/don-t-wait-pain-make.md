@@ -17,7 +17,7 @@ references: .nan
 album: .nan
 permalink: /taglines/don-t-wait-pain-make/
 managed_by: spreadsheet
-last_generated: '2026-02-03T07:01:28.385868Z'
+last_generated: '2026-02-03T07:02:06.390178Z'
 is_homepage: false
 nav:
   prev_in_collection: /taglines/deliver-us-anything-like-collect/
