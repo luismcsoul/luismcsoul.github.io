@@ -53,36 +53,27 @@ main {
 }
 .evaporate { animation: unevenEvaporate 60s ease-out 2.2s both; }
 
-/* ========== Edge Navigation (minimal arrows) ========== */
-.edge-nav {
-  position: fixed; inset: 0;
-  pointer-events: none;                     /* arrows only receive pointer in their areas */
-  z-index: 30;
-}
-.edge {
-  position: absolute; pointer-events: auto; text-decoration: none; color: inherit;
-  opacity: .05; transition: opacity .15s ease, transform .15s ease;
-}
+/* ---- Edge arrows: fully invisible until you hover the edge area ---- */
+/* Keep the large hit-zones, but hide the glyph until hover/focus */
+.edge { opacity: 0; }                          /* was .05 → 0 */
+.edge .arrow { opacity: 0; transition: opacity .15s ease; }
 
-/* Large, invisible hit boxes at the borders (so arrows never overlay the text) */
-.edge-left   { left: 0;   top: 50%; transform: translateY(-50%);  padding: 18vh 2vw; }
-.edge-right  { right: 0;  top: 50%; transform: translateY(-50%);  padding: 18vh 2vw; }
-.edge-top    { top: 0;    left: 50%; transform: translateX(-50%); padding: 2vh 18vw; }
-.edge-bottom { bottom: 0; left: 50%; transform: translateX(-50%); padding: 2vh 18vw; }
+/* When the user actually hovers/touches the edge, reveal as watermark */
+.edge:hover,
+.edge:focus { opacity: 0.20; transform: translateZ(0) scale(1.02); }
+.edge:hover .arrow,
+.edge:focus .arrow { opacity: 0.20; }
 
-/* Minimal “watermark arrow” (pure CSS strokes) */
-.edge .arrow {
-  display: block; width: 26px; height: 26px; position: relative; margin: 0 auto;
+/* Mobile: keep it even subtler; swipe is the main interaction */
+@media (max-width: 768px) {
+  .edge:hover,
+  .edge:focus { opacity: 0.12; }
+  .edge:hover .arrow,
+  .edge:focus .arrow { opacity: 0.12; }
 }
 
-/* Each arrow is a rotated L-stroke; feel free to tweak thickness */
-.edge-left  .arrow { border-left: 1.5px solid currentColor; border-top:    1.5px solid currentColor; transform: rotate(-45deg); }
-.edge-right .arrow { border-right:1.5px solid currentColor; border-top:    1.5px solid currentColor; transform: rotate(45deg);  }
-.edge-top   .arrow { border-top:  1.5px solid currentColor; border-left:   1.5px solid currentColor; transform: rotate(45deg);  }
-.edge-bottom .arrow{ border-bottom:1.5px solid currentColor; border-left:  1.5px solid currentColor; transform: rotate(-45deg); }
-
-/* Slight visibility increase when the cursor approaches */
-.edge:hover, .edge:focus { opacity: .20; transform: translateZ(0) scale(1.02); }
+/* (Optional) leave a small 'safe band' above the watermark footer link */
+.edge-bottom { padding: 2vh 18vw 6vh; }
 
 /* ========== Watermark (global home link) ========== */
 .watermark {
