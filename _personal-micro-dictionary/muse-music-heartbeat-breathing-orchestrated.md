@@ -18,7 +18,7 @@ references: .nan
 album: .nan
 permalink: /personal-micro-dictionary/muse-music-heartbeat-breathing-orchestrated/
 managed_by: spreadsheet
-last_generated: '2026-02-03T05:37:29.989308Z'
+last_generated: '2026-02-03T05:37:58.622789Z'
 is_homepage: false
 nav:
   prev_in_collection: /personal-micro-dictionary/intelligence-inversely-proportionate-amount-trash/

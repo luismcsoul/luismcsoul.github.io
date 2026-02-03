@@ -15,7 +15,7 @@ references: Antoine de Saint-Exupéry, The Little Prince
 album: .nan
 permalink: /sculpture/visible-antoine-de-saint-exupery-the-little-prince/
 managed_by: spreadsheet
-last_generated: '2026-02-03T05:37:29.989308Z'
+last_generated: '2026-02-03T05:37:58.622789Z'
 is_homepage: false
 nav:
   prev_in_collection: /sculpture/reign-king-minos-labyrith-minotaur/

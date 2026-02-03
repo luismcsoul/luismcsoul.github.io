@@ -22,7 +22,7 @@ references: emotional withdrawal, emotional numbing, emotional detachment, emoti
 album: Counterfeit
 permalink: /songs/armored-heart-emotional-withdrawal-emotional-numbing-emotional-d/
 managed_by: spreadsheet
-last_generated: '2026-02-03T05:37:29.989308Z'
+last_generated: '2026-02-03T05:37:58.622789Z'
 is_homepage: false
 nav:
   prev_in_collection: null
