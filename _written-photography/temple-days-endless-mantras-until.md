@@ -21,7 +21,7 @@ references: .nan
 album: .nan
 permalink: /written-photography/temple-days-endless-mantras-until/
 managed_by: spreadsheet
-last_generated: '2026-02-02T17:08:32.586313Z'
+last_generated: '2026-02-03T05:37:29.989308Z'
 is_homepage: false
 nav:
   prev_in_collection: /written-photography/river-stones-rounded-time-still/
