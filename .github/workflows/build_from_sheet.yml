@@ -14,7 +14,6 @@ jobs:
       contents: write
 
     steps:
-
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -23,18 +22,27 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install deps
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pandas openpyxl pyyaml
 
       - name: Ensure collection folders exist
         run: |
-          mkdir -p _written-photography _photograph _taglines _personal-micro-dictionary _visualartwork _epistolary _sculpture _songs _article _capsule-review
+          mkdir -p _taglines \
+                   _visualartwork \
+                   _personal-micro-dictionary \
+                   _written-photography \
+                   _epistolary \
+                   _sculpture \
+                   _songs \
+                   _article \
+                   _capsule-review \
+                   _misc
 
       - name: Convert spreadsheet to Jekyll collections
         run: |
-          python scripts/convert_content.py
+          python scripts/content_convert.py
 
       - name: Commit changes (if any)
         run: |
