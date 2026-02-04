@@ -30,7 +30,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 DOWN IN THE HORIZON
 
 Sirius blinks red, white and blue,

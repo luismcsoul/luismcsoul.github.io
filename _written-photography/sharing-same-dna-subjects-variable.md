@@ -27,7 +27,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 SHARING THE SAME DNA
 
 We are all subjects to

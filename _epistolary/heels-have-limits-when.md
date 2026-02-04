@@ -25,5 +25,4 @@ nav:
   prev_collection: /visualartwork/sound-minded-star-of-affinity-rhcp-michael-moorcock/
   next_collection: /sculpture/chicken-heart-takotsubo-cardiomyopathy-broken-heart-chicken-hear/
 ---
-
 "You don't have limits when you are on heels"

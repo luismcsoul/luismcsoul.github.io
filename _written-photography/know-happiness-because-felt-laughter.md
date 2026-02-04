@@ -27,7 +27,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 I KNOW ABOUT HAPPINESS
 
 Because 

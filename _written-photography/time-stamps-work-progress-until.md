@@ -26,8 +26,7 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 TIME STAMPS
 
 Work in progress
-until we die. 
+until we die.

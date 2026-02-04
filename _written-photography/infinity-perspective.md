@@ -23,7 +23,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 INFINITY
 
 From this perspective

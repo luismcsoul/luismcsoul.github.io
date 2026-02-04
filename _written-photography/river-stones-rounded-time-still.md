@@ -30,7 +30,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 IN THE RIVER
 
 All stones are rounded by time.

@@ -31,10 +31,9 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 GRAVE MARKERS
 
 With only full names
 and two dates,
 should have at least
-one more sentence to tell. 
+one more sentence to tell.

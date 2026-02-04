@@ -29,7 +29,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 MOUNTAINS
 
 Are destroyed

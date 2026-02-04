@@ -28,9 +28,8 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 PROPORTIONAL
 
 Followers of shiny things
 are directly proportional
-devotees of darkness. 
+devotees of darkness.

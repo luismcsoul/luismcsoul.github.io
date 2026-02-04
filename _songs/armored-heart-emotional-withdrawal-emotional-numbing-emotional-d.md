@@ -30,7 +30,6 @@ nav:
   prev_collection: /sculpture/visible-antoine-de-saint-exupery-the-little-prince/
   next_collection: /article/yuko-shimizu-contemporary-heroines-yuko-shimizu/
 ---
-
 ARMORED HEART
 
 If you were hurt,

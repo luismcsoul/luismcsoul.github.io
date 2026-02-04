@@ -27,7 +27,6 @@ nav:
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
 ---
-
 PLANTS:
 
 Under Earth as it is in Heaven,

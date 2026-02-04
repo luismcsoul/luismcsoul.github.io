@@ -25,8 +25,7 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 A SMALL TIE
 
 Is a perfect coat
-for your sternum. 
+for your sternum.

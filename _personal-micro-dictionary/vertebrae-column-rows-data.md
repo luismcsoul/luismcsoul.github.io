@@ -25,7 +25,6 @@ nav:
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
 ---
-
 VERTEBRAE:
 
 Column,

@@ -22,5 +22,4 @@ nav:
   prev_collection: /written-photography/salary-still-certain-amount-salt/
   next_collection: /taglines/basketball-s-free-throw-never/
 ---
-
 Frog You!

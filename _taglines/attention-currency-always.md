@@ -24,7 +24,6 @@ nav:
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
 ---
-
 Attention is a currency,
 you always must 
 pay with it.

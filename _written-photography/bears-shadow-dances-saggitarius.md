@@ -25,7 +25,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 "I" BEARS THE SHADOW
 
 The sun dances

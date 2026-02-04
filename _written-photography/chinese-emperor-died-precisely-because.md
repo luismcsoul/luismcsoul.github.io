@@ -31,7 +31,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 A CHINESE EMPEROR
 
 died

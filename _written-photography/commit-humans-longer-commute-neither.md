@@ -27,7 +27,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 COMMIT
 
 Humans 'will not longer commute',

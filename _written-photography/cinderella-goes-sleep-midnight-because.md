@@ -29,11 +29,10 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 CINDERELLA
 
 Goes to sleep
 before midnight,
 because she is another 
 representation 
-of Venus 
+of Venus

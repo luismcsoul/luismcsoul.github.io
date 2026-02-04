@@ -23,6 +23,5 @@ nav:
   prev_collection: /personal-micro-dictionary/vertebrae-column-rows-data/
   next_collection: /epistolary/heels-have-limits-when/
 ---
-
 "Reverse Darwinism:
 Survival of the most idiotic"

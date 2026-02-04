@@ -25,7 +25,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 EVERYWHERE I LOOK
 
 "The Masque of the Red Death"

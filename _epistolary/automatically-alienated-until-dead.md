@@ -25,6 +25,5 @@ nav:
   prev_collection: /visualartwork/sound-minded-star-of-affinity-rhcp-michael-moorcock/
   next_collection: /sculpture/chicken-heart-takotsubo-cardiomyopathy-broken-heart-chicken-hear/
 ---
-
 🤖👽💀
 "Automatically Alienated to you until Dead"

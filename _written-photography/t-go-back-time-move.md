@@ -31,7 +31,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 YOU CAN'T GO BACK IN TIME
 
 But you can move forward

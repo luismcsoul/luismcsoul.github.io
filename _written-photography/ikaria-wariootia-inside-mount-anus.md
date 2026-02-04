@@ -31,7 +31,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 IKARIA WARIOOTIA
 
 Inside of us all,

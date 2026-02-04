@@ -24,5 +24,4 @@ nav:
   prev_collection: /epistolary/automatically-alienated-until-dead/
   next_collection: /songs/armored-heart-emotional-withdrawal-emotional-numbing-emotional-d/
 ---
-
 Corazón Espinado

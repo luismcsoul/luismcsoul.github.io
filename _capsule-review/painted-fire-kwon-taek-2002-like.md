@@ -31,7 +31,6 @@ nav:
   prev_collection: /article/yuko-shimizu-contemporary-heroines-yuko-shimizu/
   next_collection: null
 ---
-
 PAINTED FIRE
 Kwon-taek (2002)
 

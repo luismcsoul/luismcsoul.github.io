@@ -27,7 +27,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 BITCOIN WAS THE TEST NET
 
 For a further 

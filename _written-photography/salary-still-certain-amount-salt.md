@@ -26,7 +26,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 YOUR SALARY
 
 is still

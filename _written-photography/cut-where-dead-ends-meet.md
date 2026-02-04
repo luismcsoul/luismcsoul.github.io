@@ -25,7 +25,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 BY THE CUT
 
 See you

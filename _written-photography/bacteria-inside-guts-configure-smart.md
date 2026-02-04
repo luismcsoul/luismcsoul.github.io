@@ -30,7 +30,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 THE BACTERIA
 
 Inside our guts

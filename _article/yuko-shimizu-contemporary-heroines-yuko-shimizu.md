@@ -24,7 +24,6 @@ nav:
   prev_collection: /songs/unintended-permanence-every-character-need/
   next_collection: /capsule-review/painted-fire-kwon-taek-2002-like/
 ---
-
 YUKO SHIMIZU: CONTEMPORARY HEROINES
 
 How to combine Japanese and American illustration?

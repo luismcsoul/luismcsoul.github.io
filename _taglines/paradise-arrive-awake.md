@@ -26,7 +26,6 @@ nav:
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
 ---
-
 To paradise 
 we don't arrive, 
 we awake.

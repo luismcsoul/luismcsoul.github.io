@@ -23,7 +23,6 @@ nav:
   prev_collection: /epistolary/automatically-alienated-until-dead/
   next_collection: /songs/armored-heart-emotional-withdrawal-emotional-numbing-emotional-d/
 ---
-
 VISIBLE TO ME
 
 "What is essential is invisible to the eye"

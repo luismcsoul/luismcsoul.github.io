@@ -28,10 +28,9 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 THE ANTS CAME
 
 and took away,  
 one by one,
 the binary codes
-of this book. 
+of this book.

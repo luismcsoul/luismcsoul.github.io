@@ -31,7 +31,6 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 ---
-
 ONCE I SAT DOWN
 
 In Zen Meditation.

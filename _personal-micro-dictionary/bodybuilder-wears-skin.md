@@ -24,7 +24,6 @@ nav:
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
 ---
-
 BODYBUILDER:
 
 She wears her skin.
