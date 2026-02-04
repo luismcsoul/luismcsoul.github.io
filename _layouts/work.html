@@ -14,5 +14,49 @@ layout: base
     <div class="work-body" itemprop="text">
       {{ content | newline_to_br }}
     </div>
+
+<!-- Add this popup container in your layout -->
+<div id="mediaHeroPopup">
+  <img src="{{ page.media_hero }}" alt="{{ page.media_alt | default: 'Media Hero' }}">
+</div>
+
+<style>
+  #mediaHeroPopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8); /* optional overlay */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  #mediaHeroPopup img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* scales nicely to screen */
+  }
+</style>
+
+<script>
+  const popup = document.getElementById("mediaHeroPopup");
+
+  document.addEventListener("keydown", function(event) {
+    if (event.code === "Space") {
+      event.preventDefault(); // prevent page scroll
+      popup.style.display = "flex"; // show popup
+    }
+  });
+
+  document.addEventListener("keyup", function(event) {
+    if (event.code === "Space") {
+      popup.style.display = "none"; // hide popup
+    }
+  });
+</script>
+    
   </article>
 </main>
