@@ -83,8 +83,8 @@ main {
 .wm-link {
   text-decoration: none; color: #000; opacity: .08;
   transition: opacity .18s ease;
-  text-align: center;          /* <<< center the text inside the link */
-  display: inline-block;       /* (already implied by your use, but safe to add) */
+  text-align: center;          /* center the text inside the link */
+  display: inline-block;
 }
 .wm-link:hover, .wm-link:focus { opacity: .22; }
 .mark-long { display: none; }
@@ -102,6 +102,7 @@ main {
   .brush-reveal, .evaporate { animation: none !important; }
 }
 
+/* ========== Gradient Background for Collections ========== */
 .page-gradient {
   padding: 2rem;
   border-radius: 8px;
@@ -109,9 +110,9 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-.page-gradient .content {
-  background: rgba(0,0,0,0.4);
-  padding: 1rem;
-  border-radius: 4px;
+  background: linear-gradient(
+    135deg,
+    var(--collection-color) 0%,
+    var(--collection-color-light) 100%
+  );
 }
