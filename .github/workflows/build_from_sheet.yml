@@ -1,11 +1,9 @@
-name: Generate pages from spreadsheet
+name: Generate pages from Google Sheet
 
 on:
-  push:
-    paths:
-      - 'data/luismcsoul_content.xlsx'
-      - 'scripts/**'
   workflow_dispatch: {}
+  schedule:
+    - cron: "0 * * * *"   # runs hourly, adjust as needed
 
 jobs:
   build-pages:
@@ -25,22 +23,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas openpyxl pyyaml
+          pip install pandas google-api-python-client google-auth google-auth-oauthlib pyyaml
 
-      - name: Ensure collection folders exist
-        run: |
-          mkdir -p _taglines \
-                   _visualartwork \
-                   _personal-micro-dictionary \
-                   _written-photography \
-                   _epistolary \
-                   _sculpture \
-                   _songs \
-                   _article \
-                   _capsule-review \
-                   _misc
-
-      - name: Convert spreadsheet to Jekyll collections
+      - name: Run content conversion
+        env:
+          GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
         run: |
           python scripts/content_convert.py
 
@@ -49,11 +36,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-
           if ! git diff --cached --quiet; then
-            echo "Changes detected, committing..."
-            git commit -m "chore: generate Jekyll collections from Excel"
+            git commit -m "chore: generate Jekyll collections from Google Sheet"
             git push
           else
             echo "No changes to commit"
-          fi
