@@ -6,7 +6,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 # Google Sheet details
-SHEET_ID = "YOUR_SHEET_ID"   # <-- replace with your actual Sheet ID
+SHEET_ID = "1nd1otXiR_JZnASjUnuKw4ASpGSCVbcU5q4l5keeRPds"   # <-- replace with your actual Sheet ID
 RANGE_NAME = "Sheet1"        # adjust if your sheet/tab has a different name
 
 # Output Excel snapshot
