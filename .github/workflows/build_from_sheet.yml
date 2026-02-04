@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas google-api-python-client google-auth google-auth-oauthlib pyyaml
+          pip install pandas google-api-python-client google-auth google-auth-oauthlib pyyaml openpyxl
 
       - name: Run content conversion
         env:
