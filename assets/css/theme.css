@@ -3,7 +3,7 @@ html, body {
   height: 100svh;
   margin: 0;
   overflow: hidden;                /* museum-like, no page scroll */
-  background: #fafafa;
+  background: none;
   color: #111;
   font: 400 17px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI",
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
