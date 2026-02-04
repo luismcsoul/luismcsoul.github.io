@@ -1,0 +1,22 @@
+{% assign base_color = site.data.colors[page.collection] | default: "#cccccc" %}
+{% assign shade_index = page.order | default: 1 %}
+
+{%- comment -%}
+  Simple lighten/darken function: adjust brightness based on order.
+  For example: order=1 → base, order=2 → +10% lighter, order=3 → +20% lighter.
+{%- endcomment -%}
+
+{% assign lightness = shade_index | times: 10 %}
+{% capture gradient_color %}
+  {{ base_color | color_modify: "lighten", lightness }}
+{% endcapture %}
+
+<style>
+.page-gradient {
+  background: linear-gradient(
+    135deg,
+    {{ base_color }} 0%,
+    {{ gradient_color }} 100%
+  );
+}
+</style>
