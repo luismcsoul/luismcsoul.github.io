@@ -9,7 +9,9 @@ keywords:
 - limits
 - when
 - heels
-excerpt: Fetishism and idolatry of reality creates contemporary goddess in each beautiful woman you meet. This get's reinforced by hypersexualized pictures portraying her as untouchable divinity on social medias.
+excerpt: Fetishism and idolatry of reality creates contemporary goddess in each beautiful
+  woman you meet. This get's reinforced by hypersexualized pictures portraying her
+  as untouchable divinity on social medias.
 media_hero: .nan
 media_alt: .nan
 taglines: .nan
