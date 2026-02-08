@@ -2,6 +2,30 @@
 layout: base
 ---
 
+<head>
+  <meta name="author" content="{{ site.author }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "alternateName": "{{ site.aka }}"
+    }
+  }
+  </script>
+  
+  {% if page.citation %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "citation": "{{ page.citation }}"
+  }
+  </script>
+  {% endif %}
+
+</head>
+
 <main>
   <article class="work brush-reveal evaporate"
            itemscope
@@ -49,7 +73,7 @@ layout: base
 <span id="excerpt-text" style="display:none;">
   {{ page.excerpt }}
 </span>
-    
+
     <script>
       const popup = document.getElementById("mediaHeroPopup");
 
