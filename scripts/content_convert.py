@@ -85,20 +85,28 @@ def update_content():
 
         filename = os.path.join(content_dir, f"{slug}.md")
 
-        if os.path.exists(filename):
-            front_matter, body = safe_yaml_load(filename)
+if os.path.exists(filename):
+    front_matter, body = safe_yaml_load(filename)
 
-            # Update only empty fields
-            if ("media_hero" not in front_matter or not front_matter["media_hero"]) and media_hero:
-                front_matter["media_hero"] = media_hero
+    # List of all fields you want to sync from Google Sheets
+    fields_to_check = [
+        "layout", "title", "slug", "permalink", "schema_type",
+        "excerpt", "keywords", "media_hero", "media_alt",
+        "taglines", "references", "album"
+    ]
 
-            # Preserve existing values or fill from sheet if missing
-            front_matter["title"] = front_matter.get("title", row.get("title", ""))
-            front_matter["slug"] = front_matter.get("slug", slug)
-            front_matter["permalink"] = front_matter.get("permalink", permalink)
+    # Preserve existing values, but add missing ones from sheet
+    for field in fields_to_check:
+        sheet_value = row.get(field, "")
+        if (field not in front_matter or not front_matter[field]) and sheet_value:
+            front_matter[field] = sheet_value
 
-            write_yaml_file(filename, front_matter, body)
-            print(f"Updated {filename}")
+    # Update body only if empty
+    if not body.strip() and row.get("body_md"):
+        body = row.get("body_md", "")
+
+    write_yaml_file(filename, front_matter, body)
+    print(f"Updated {filename}")
         else:
             # Create new file if missing
             front_matter = {
