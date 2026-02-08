@@ -24,6 +24,7 @@ nav:
   next_in_collection: /taglines/scrolling-gdfr-goin-down-for-real-flo-rida-sage-the-gemini/
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+citation: "Neil Peart, \nRush, \nSupercoductor."
 ---
 Reverse Engineer
 "the fantasies that you romance to"

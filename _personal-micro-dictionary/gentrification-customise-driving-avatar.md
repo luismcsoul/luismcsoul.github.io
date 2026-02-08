@@ -24,6 +24,7 @@ nav:
   next_in_collection: /personal-micro-dictionary/badge-heaviest-object-carry/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+citation: Google Maps
 ---
 GENTRIFICATION:
 

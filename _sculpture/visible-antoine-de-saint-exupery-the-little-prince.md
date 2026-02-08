@@ -22,6 +22,7 @@ nav:
   next_in_collection: null
   prev_collection: /epistolary/automatically-alienated-until-dead/
   next_collection: /songs/armored-heart-emotional-withdrawal-emotional-numbing-emotional-d/
+citation: Antoine de Saint-Exupery, The Little Prince.
 ---
 VISIBLE TO ME
 

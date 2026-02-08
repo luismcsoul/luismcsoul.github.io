@@ -26,6 +26,7 @@ nav:
   next_in_collection: /written-photography/counterintuitive-removing-temptations-eating/
   prev_collection: null
   next_collection: /photograph/frog/
+citation: Arthur C. Clarke
 ---
 COMMIT
 

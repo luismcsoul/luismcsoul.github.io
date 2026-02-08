@@ -24,6 +24,7 @@ nav:
   next_in_collection: /written-photography/red-green-there-millions-steps/
   prev_collection: null
   next_collection: /photograph/frog/
+citation: Edgar Allan Poe
 ---
 EVERYWHERE I LOOK
 

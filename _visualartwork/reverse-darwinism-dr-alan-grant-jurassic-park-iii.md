@@ -22,6 +22,7 @@ nav:
   next_in_collection: /visualartwork/sepik-river-mask/
   prev_collection: /personal-micro-dictionary/vertebrae-column-rows-data/
   next_collection: /epistolary/heels-have-limits-when/
+citation: Dr. Alan Grant, Jurassic Park III
 ---
 "Reverse Darwinism:
 Survival of the most idiotic"
