@@ -29,7 +29,7 @@ nav:
 ---
 PLANTS:
 
-Under Earth as it is in Heaven,
-except you
-phytoplankton,
+Under Earth as it is in Heaven.
+
+But not you phytoplankton,
 you're a drifter.
