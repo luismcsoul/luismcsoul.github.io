@@ -3,7 +3,7 @@ html, body {
   height: 100svh;
   margin: 0;
   overflow: hidden;                /* museum-like, no page scroll */
-  background: none;
+  background: #fff;                /* Fallback background */
   color: #111;
   font: 400 17px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI",
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
@@ -38,52 +38,66 @@ main {
 }
 .brush-reveal { animation: brushReveal 1.6s ease-out 400ms both; }
 
-/* Evaporation to watermark (very slow, uneven; stays legible at the end) */
+/* Evaporation to watermark (very slow, uneven) */
 @keyframes unevenEvaporate {
   0%   { opacity: 1   }
-  10%  { opacity: .92 }
-  17%  { opacity: .88 }
-  28%  { opacity: .81 }
-  40%  { opacity: .74 }
-  52%  { opacity: .68 }
-  65%  { opacity: .60 }
-  78%  { opacity: .48 }
-  90%  { opacity: .32 }
   100% { opacity: .16 } /* watermark endpoint */
 }
 .evaporate { animation: unevenEvaporate 60s ease-out 2.2s both; }
 
-/* ---- Edge arrows: fully invisible until you hover the edge area ---- */
-/* Keep the large hit-zones, but hide the glyph until hover/focus */
-.edge { opacity: 0; }                          /* was .05 → 0 */
-.edge .arrow { opacity: 0; transition: opacity .15s ease; }
+/* ========== Edge Navigation (Arrows) ========== */
+/* We keep these fixed and "hittable" with a transparent background.
+   Without a background or dimensions, hover often fails to trigger. 
+*/
+.edge {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 15vw;                 /* Large hit zone for desktop/tablet */
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: rgba(0,0,0,0);   /* Transparent but physically there for the mouse */
+  transition: opacity .15s ease, background .3s ease;
+  cursor: pointer;
+}
 
-/* When the user actually hovers/touches the edge, reveal as watermark */
-.edge:hover,
-.edge:focus { opacity: 0.20; transform: translateZ(0) scale(1.02); }
+.edge-left   { left: 0; }
+.edge-right  { right: 0; }
+.edge-top    { top: 0; left: 0; right: 0; height: 15vh; width: 100%; }
+.edge-bottom { bottom: 0; left: 0; right: 0; height: 15vh; width: 100%; }
+
+.edge .arrow { 
+  font-size: 2rem;
+  color: #000;
+  opacity: 0;                  /* Fully invisible until hover */
+  transition: opacity .15s ease; 
+}
+
+/* Reveal arrow on hover/focus */
 .edge:hover .arrow,
-.edge:focus .arrow { opacity: 0.20; }
+.edge:focus .arrow { 
+  opacity: 0.20; 
+}
 
-/* Mobile: keep it even subtler; swipe is the main interaction */
+/* Mobile: swipe is primary, so we make the tap-zones even subtler */
 @media (max-width: 768px) {
-  .edge:hover,
-  .edge:focus { opacity: 0.12; }
+  .edge { width: 10vw; }
   .edge:hover .arrow,
   .edge:focus .arrow { opacity: 0.12; }
 }
 
-/* (Optional) leave a small 'safe band' above the watermark footer link */
-.edge-bottom { padding: 2vh 18vw 6vh; }
-
 /* ========== Watermark (global home link) ========== */
 .watermark {
   position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%);
-  z-index: 40; user-select: none;
+  z-index: 60; user-select: none;
 }
 .wm-link {
   text-decoration: none; color: #000; opacity: .08;
   transition: opacity .18s ease;
-  text-align: center;          /* center the text inside the link */
+  text-align: center;
   display: inline-block;
 }
 .wm-link:hover, .wm-link:focus { opacity: .22; }
@@ -91,7 +105,48 @@ main {
 .wm-link:hover .mark-short, .wm-link:focus .mark-short { display: none; }
 .wm-link:hover .mark-long,  .wm-link:focus .mark-long  { display: block; }
 
-/* ========== Accessibility & Motion Preferences ========== */
+/* ========== Gradient Background for Collections ========== */
+.page-gradient {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  /* Dynamic colors injected via inline style in HTML */
+  background: linear-gradient(
+    135deg,
+    var(--collection-color, #f0f0f0) 0%,
+    var(--collection-color-light, #ffffff) 100%
+  );
+  color: #111;
+}
+
+/* ========== Hero Popup (Spacebar/Touch) ========== */
+#mediaHeroPopup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#mediaHeroPopup img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ========== Accessibility & Utilities ========== */
 .sr-only {
   position: absolute !important;
   width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
@@ -100,66 +155,4 @@ main {
 
 @media (prefers-reduced-motion: reduce){
   .brush-reveal, .evaporate { animation: none !important; }
-}
-
-/* ========== Gradient Background for Collections ========== */
-.page-gradient {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;   /* vertical centering */
-  align-items: center;       /* horizontal centering */
-  text-align: center;        /* center text alignment */
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    var(--collection-color) 0%,
-    var(--collection-color-light) 100%
-  );
-  color: #111; /* black text */
-}
-
-  background: linear-gradient(
-    135deg,
-    var(--collection-color) 0%,
-    var(--collection-color-light) 100%
-  );
-}
-
-#mediaHeroPopup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.8); /* overlay */
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
-
-#mediaHeroPopup img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  pointer-events: none;   /* prevents long-press menu */
-  user-select: none;      /* prevents text/image selection */
-}
-
-.page-nav {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.9rem;
-  opacity: 0.7;
-}
-
-.page-nav a {
-  text-decoration: none;
-  color: inherit;
-  transition: opacity 0.2s ease;
-}
-
-.page-nav a:hover {
-  opacity: 1;
 }
