@@ -37,7 +37,9 @@ layout: base
 
     {% include color_utils.html %}
 
-    <div class="page-gradient">
+    <div class="page-gradient"
+        style="--collection-color: {{ page.base_color }}; --collection-color-light: {{ page.light_color }};">
+    {{ content }}
       <div class="work-body" itemprop="text">
         {{ content | newline_to_br }}
       </div>
