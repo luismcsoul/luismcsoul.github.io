@@ -35,5 +35,41 @@ collections:
 permalink: /:collection/:slug/
 
 defaults:
-  - scope: { path: "", type: pmd }
-    values: { layout: work, schema_type: "Poem" }
+  - scope:
+      path: ""
+      type: songs
+    values:
+      layout: work
+      schema_type: "MusicComposition"
+
+defaults:
+  - scope:
+      path: ""
+      type: sculpture
+    values:
+      layout: work
+      schema_type: "Sculpture"
+
+defaults:
+  - scope:
+      path: ""
+      type: epistolary
+    values:
+      layout: work
+      schema_type: "CreativeWork"
+
+defaults:
+  - scope:
+      path: ""
+      type: photograph
+    values:
+      layout: work
+      schema_type: "Photograph"
+
+defaults:
+  - scope:
+      path: ""
+      type: visualartwork
+    values:
+      layout: work
+      schema_type: "VisualArtwork"
