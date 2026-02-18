@@ -6,8 +6,8 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 # Google Sheet details
-SHEET_ID = "1nd1otXiR_JZnASjUnuKw4ASpGSCVbcU5q4l5keeRPds"   # <-- replace with your actual Sheet ID
-RANGE_NAME = "Sheet1"        # adjust if your sheet/tab has a different name
+SHEET_ID = "1nd1otXiR_JZnASjUnuKw4ASpGSCVbcU5q4l5keeRPds"
+RANGE_NAME = "Sheet1"
 
 # Output Excel snapshot
 OUTPUT_EXCEL = "data/luismcsoul_content_updated.xlsx"
@@ -27,28 +27,32 @@ COLLECTION_DIRS = {
     "misc": "_misc"
 }
 
+def clean_value(val):
+    """Normalize values: replace NaN/.nan/empty with None (YAML null)."""
+    if val is None:
+        return None
+    s = str(val).strip()
+    if s == "" or s.lower() in ["nan", ".nan"]:
+        return None
+    return val
+
 def load_google_sheet():
-    """Fetch Google Sheet data into a pandas DataFrame."""
     creds_json = os.environ.get("GOOGLE_SHEETS_CREDENTIALS")
     creds_dict = json.loads(creds_json)
     creds = service_account.Credentials.from_service_account_info(
         creds_dict,
         scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
     )
-
     service = build("sheets", "v4", credentials=creds)
     sheet = service.spreadsheets()
     result = sheet.values().get(spreadsheetId=SHEET_ID, range=RANGE_NAME).execute()
     values = result.get("values", [])
-
     if not values:
         raise ValueError("No data found in Google Sheet.")
-
     df = pd.DataFrame(values[1:], columns=values[0])
     return df
 
 def safe_yaml_load(filepath):
-    """Load YAML front matter from a markdown file safely."""
     with open(filepath, "r", encoding="utf-8") as f:
         lines = f.read().split("---")
         if len(lines) >= 3:
@@ -59,7 +63,6 @@ def safe_yaml_load(filepath):
             return {}, f.read()
 
 def write_yaml_file(filepath, front_matter, body):
-    """Write updated YAML + body back to file."""
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
         yaml.dump(front_matter, f, sort_keys=False, allow_unicode=True)
@@ -71,67 +74,55 @@ def update_content():
     updated_rows = []
 
     for _, row in df.iterrows():
-        collection = str(row.get("collection", "misc")).strip().lower()
-        slug = str(row.get("slug", "")).strip()
-        permalink = row.get("permalink", "")
-        media_hero = row.get("media_hero", None)
+        collection = clean_value(row.get("collection")) or "misc"
+        slug = clean_value(row.get("slug"))
+        permalink = clean_value(row.get("permalink"))
+        media_hero = clean_value(row.get("media_hero"))
 
         if not slug:
-            continue  # skip rows without slug
+            continue
 
-        # Pick directory based on collection
-        content_dir = COLLECTION_DIRS.get(collection, "_misc")
+        content_dir = COLLECTION_DIRS.get(collection.lower(), "_misc")
         os.makedirs(content_dir, exist_ok=True)
-
         filename = os.path.join(content_dir, f"{slug}.md")
 
         if os.path.exists(filename):
             front_matter, body = safe_yaml_load(filename)
-
-            # List of all fields you want to sync from Google Sheets
             fields_to_check = [
                 "layout", "title", "slug", "permalink", "schema_type",
                 "excerpt", "keywords", "media_hero", "media_alt",
                 "taglines", "references", "album", "citation"
             ]
-
-            # Preserve existing values, but add missing ones from sheet
             for field in fields_to_check:
-                sheet_value = row.get(field, "")
-                if (field not in front_matter or not front_matter[field]) and sheet_value:
+                sheet_value = clean_value(row.get(field))
+                if sheet_value is not None:
                     front_matter[field] = sheet_value
-
-            # Update body only if empty
-            if not body.strip() and row.get("body_md"):
+            if not body.strip() and clean_value(row.get("body_md")):
                 body = row.get("body_md", "")
-
             write_yaml_file(filename, front_matter, body)
             print(f"Updated {filename}")
-
         else:
-            # Create new file if missing
             front_matter = {
-                "layout": row.get("collection", "work"),
-                "title": row.get("title", ""),
+                "layout": clean_value(row.get("collection")) or "work",
+                "title": clean_value(row.get("title")),
                 "slug": slug,
                 "permalink": permalink,
-                "schema_type": row.get("schema_type", "CreativeWork"),
-                "excerpt": row.get("excerpt", ""),
-                "keywords": row.get("keywords", ""),
+                "schema_type": clean_value(row.get("schema_type")) or "CreativeWork",
+                "excerpt": clean_value(row.get("excerpt")),
+                "keywords": clean_value(row.get("keywords")),
                 "media_hero": media_hero,
-                "media_alt": row.get("media_alt", ""),
-                "taglines": row.get("taglines", ""),
-                "references": row.get("references", ""),
-                "album": row.get("album", ""),
-                "citation": row.get("citation", "")
+                "media_alt": clean_value(row.get("media_alt")),
+                "taglines": clean_value(row.get("taglines")),
+                "references": clean_value(row.get("references")),
+                "album": clean_value(row.get("album")),
+                "citation": clean_value(row.get("citation"))
             }
-            body = row.get("body_md", "")
+            body = clean_value(row.get("body_md")) or ""
             write_yaml_file(filename, front_matter, body)
             print(f"Created {filename}")
 
         updated_rows.append(row)
 
-    # Save updated Excel snapshot
     pd.DataFrame(updated_rows).to_excel(OUTPUT_EXCEL, index=False)
     print(f"Saved updated snapshot to {OUTPUT_EXCEL}")
 
