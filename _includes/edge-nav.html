@@ -9,11 +9,30 @@
   {%- endfor -%}
 {%- endif -%}
 
+{%- assign collections_order = "songs,sculpture,article,capsule-review,photograph,written-photography" | split: "," -%}
+{%- assign current_index = collections_order | index_of: page.collection -%}
+{%- if current_index != nil and current_index >= 0 -%}
+  {%- assign prev_coll = collections_order[current_index | minus: 1] -%}
+  {%- assign next_coll = collections_order[current_index | plus: 1] -%}
+  {%- if prev_coll and site[prev_coll] and site[prev_coll].size > 0 -%}
+    {%- assign U = site[prev_coll] | first -%}
+  {%- endif -%}
+  {%- if next_coll and site[next_coll] and site[next_coll].size > 0 -%}
+    {%- assign D = site[next_coll] | first -%}
+  {%- endif -%}
+{%- endif -%}
+
 <div class="edge-nav">
   {%- if L -%}
     <a class="edge edge-left" data-edge="left" href="{{ L.url }}"><span class="arrow"></span></a>
   {%- endif -%}
   {%- if R -%}
     <a class="edge edge-right" data-edge="right" href="{{ R.url }}"><span class="arrow"></span></a>
+  {%- endif -%}
+    {%- if U -%}
+    <a class="edge edge-top" data-edge="top" href="{{ U.url }}"><span class="arrow"></span></a>
+  {%- endif -%}
+  {%- if D -%}
+    <a class="edge edge-bottom" data-edge="bottom" href="{{ D.url }}"><span class="arrow"></span></a>
   {%- endif -%}
 </div>
