@@ -1,10 +1,13 @@
-{% assign sorted = site.articles | sort: 'slug' %}
-{% for item in sorted %}
-  {% if item.url == page.url %}
-    {% assign prev = sorted[forloop.index0 | minus: 1] %}
-    {% assign next = sorted[forloop.index0 | plus: 1] %}
-  {% endif %}
-{% endfor %}
+{% assign coll = site[page.collection] %}
+{% if coll %}
+  {% assign sorted = coll | sort: 'slug' %}
+  {% for item in sorted %}
+    {% if item.url == page.url %}
+      {% assign prev = sorted[forloop.index0 | minus: 1] %}
+      {% assign next = sorted[forloop.index0 | plus: 1] %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
 <nav class="page-nav">
   {% if prev %}
