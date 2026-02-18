@@ -67,3 +67,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }, {passive:true});
   }
 });
+
+const popupImg = document.querySelector('#mediaHeroPopup img');
+if (popupImg){
+  popupImg.addEventListener('contextmenu', e => e.preventDefault());
+  popupImg.addEventListener('touchstart', e => e.preventDefault(), {passive:false});
+}
