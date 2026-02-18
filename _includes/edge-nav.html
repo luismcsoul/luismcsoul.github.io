@@ -1,23 +1,53 @@
-{% assign coll = site[page.collection] %}
-{% if coll %}
-  {% assign sorted = coll | sort: 'slug' %}
-  {% for item in sorted %}
-    {% if item.url == page.url %}
-      {% assign L = sorted[forloop.index0 | minus: 1] %}
-      {% assign R = sorted[forloop.index0 | plus: 1] %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
+{%- assign coll = site[page.collection] -%}
+{%- if coll -%}
+  {%- assign sorted = coll | sort: 'slug' -%}
+  {%- for item in sorted -%}
+    {%- if item.url == page.url -%}
+      {%- assign L = sorted[forloop.index0 | minus: 1] -%}
+      {%- assign R = sorted[forloop.index0 | plus: 1] -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- comment -%}
+    Up/Down navigation: define a fixed order of collections.
+    Adjust the sequence below to match your site’s hierarchy.
+  {%- endcomment -%}
+  {%- assign collections_order = "songs,sculpture,article,capsule-review,photograph" | split: "," -%}
+  {%- assign current_index = collections_order | index_of: page.collection -%}
+  {%- if current_index != nil -%}
+    {%- assign prev_coll = collections_order[current_index | minus: 1] -%}
+    {%- assign next_coll = collections_order[current_index | plus: 1] -%}
+    {%- if prev_coll -%}
+      {%- assign U = site[prev_coll] | first -%}
+    {%- endif -%}
+    {%- if next_coll -%}
+      {%- assign D = site[next_coll] | first -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
 
 <div class="edge-nav">
-  {% if L %}
+  {%- if L -%}
     <a class="edge edge-left" data-edge="left" href="{{ L.url }}">
       <span class="arrow"></span>
     </a>
-  {% endif %}
-  {% if R %}
+  {%- endif -%}
+
+  {%- if R -%}
     <a class="edge edge-right" data-edge="right" href="{{ R.url }}">
       <span class="arrow"></span>
     </a>
-  {% endif %}
+  {%- endif -%}
+
+  {%- if U -%}
+    <a class="edge edge-top" data-edge="top" href="{{ U.url }}">
+      <span class="arrow"></span>
+    </a>
+  {%- endif -%}
+
+  {%- if D -%}
+    <a class="edge edge-bottom" data-edge="bottom" href="{{ D.url }}">
+      <span class="arrow"></span>
+    </a>
+  {%- endif -%}
 </div>
