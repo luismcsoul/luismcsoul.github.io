@@ -4,13 +4,7 @@ collection: personal-micro-dictionary
 title: 'PLANTS:'
 slug: plants-earth-heaven-except-phytoplankton
 schema_type: ShortStory
-keywords:
-- plants
-- earth
-- heaven
-- except
-- phytoplankton
-- drifter
+keywords: plants, earth, heaven, except, phytoplankton, drifter
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

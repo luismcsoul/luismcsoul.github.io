@@ -4,10 +4,7 @@ collection: songs
 title: Native
 slug: native-monocultures-monotony-standarization
 schema_type: MusicComposition
-keywords:
-- monocultures
-- monotony
-- standarization
+keywords: monocultures, monotony, standarization
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,13 +4,7 @@ collection: personal-micro-dictionary
 title: 'INTELLIGENCE:'
 slug: intelligence-inversely-proportionate-amount-trash
 schema_type: Statement
-keywords:
-- intelligence
-- inversely
-- proportionate
-- amount
-- trash
-- leftover
+keywords: intelligence, inversely, proportionate, amount, trash, leftover
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

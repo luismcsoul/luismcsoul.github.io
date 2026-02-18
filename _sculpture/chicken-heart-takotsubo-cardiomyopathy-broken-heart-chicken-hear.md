@@ -4,13 +4,10 @@ collection: sculpture
 title: Chicken Heart
 slug: chicken-heart-takotsubo-cardiomyopathy-broken-heart-chicken-hear
 schema_type: Sculpture
-keywords:
-- takotsubo cardiomyopathy
-- broken heart
-- chicken heart
+keywords: takotsubo cardiomyopathy, broken heart, chicken heart
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.6435-9/61454408_2153093811477983_7621367802590396416_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHCExDlLYTFLk5SHdGK4OMAFaLV2Z9Ij70VotXZn0iPvd6Z6XhldfzLHFDFJfP0OOmtzgWVCyPt5lJwQYoGeX18&_nc_ohc=yTraL3H7jcwQ7kNvwGLR5ze&_nc_oc=AdnkCYpgV9WxXU4OibJL1YYMeUNjJeQ969sp10oiIrbAUTOG8Zw-ug92gLCvXMF6Q9Y&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=IrQVD9udNISdzMmp2Q57UQ&oh=00_Afuck-wSD7N8R-NPYLqmXQfy3XHTO-Ous9qhgck19hIvzA&oe=69AABA26
+media_alt: Chicken Heart, Soul Feedback
 taglines: .nan
 references: Takotsubo Cardiomyopathy, broken heart, chicken heart
 album: .nan

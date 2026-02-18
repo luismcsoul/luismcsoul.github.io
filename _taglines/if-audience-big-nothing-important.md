@@ -4,11 +4,7 @@ collection: taglines
 title: If the audience is too big,
 slug: if-audience-big-nothing-important
 schema_type: Statement
-keywords:
-- audience
-- nothing
-- important
-- discussed
+keywords: audience, nothing, important, discussed
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

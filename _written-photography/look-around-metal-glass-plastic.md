@@ -4,17 +4,8 @@ collection: written-photography
 title: LOOK AROUND
 slug: look-around-metal-glass-plastic
 schema_type: CreativeWork
-keywords:
-- look
-- around
-- metal
-- glass
-- plastic
-- concrete
-- together
-- colored
-- coatings
-- have
+keywords: look, around, metal, glass, plastic, concrete, together, colored, coatings,
+  have
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

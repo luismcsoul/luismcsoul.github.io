@@ -4,10 +4,7 @@ collection: taglines
 title: Four Kings
 slug: four-kings-lost
 schema_type: CreativeWork
-keywords:
-- four
-- kings
-- lost
+keywords: four, kings, lost
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

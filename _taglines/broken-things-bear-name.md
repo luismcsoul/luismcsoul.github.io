@@ -4,11 +4,7 @@ collection: taglines
 title: Broken Things
 slug: broken-things-bear-name
 schema_type: CreativeWork
-keywords:
-- broken
-- things
-- bear
-- name
+keywords: broken, things, bear, name
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

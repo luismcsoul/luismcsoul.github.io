@@ -4,13 +4,10 @@ collection: songs
 title: Self-Destructive
 slug: self-destructive-self-destructive-behavior-obsessive-compulsive
 schema_type: MusicComposition
-keywords:
-- self-destructive behavior
-- obsessive-compulsive disorder
-- hoarding disorder
+keywords: self-destructive behavior, obsessive-compulsive disorder, hoarding disorder
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://drive.google.com/file/d/1dAhSBpGPjazW0Ok_tlYhaCd6KjnRCxZa/view?usp=drive_link
+media_alt: Self-Destructive, Soul Feedback
 taglines: .nan
 references: self-destructive behavior, obsessive-compulsive disorder, hoarding disorder
 album: Animal

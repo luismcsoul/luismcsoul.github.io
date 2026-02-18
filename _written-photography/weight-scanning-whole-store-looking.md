@@ -4,17 +4,8 @@ collection: written-photography
 title: WEIGHT
 slug: weight-scanning-whole-store-looking
 schema_type: ShortStory
-keywords:
-- weight
-- scanning
-- whole
-- store
-- looking
-- unique
-- craftsmanship
-- price
-- jewelry
-- entirely
+keywords: weight, scanning, whole, store, looking, unique, craftsmanship, price, jewelry,
+  entirely
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,14 +4,7 @@ collection: written-photography
 title: THE ANTS CAME
 slug: ants-came-took-away-binary
 schema_type: ShortStory
-keywords:
-- ants
-- came
-- took
-- away
-- binary
-- codes
-- book
+keywords: ants, came, took, away, binary, codes, book
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

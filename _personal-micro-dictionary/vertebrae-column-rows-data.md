@@ -4,11 +4,7 @@ collection: personal-micro-dictionary
 title: 'VERTEBRAE:'
 slug: vertebrae-column-rows-data
 schema_type: CreativeWork
-keywords:
-- vertebrae
-- column
-- rows
-- data
+keywords: vertebrae, column, rows, data
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

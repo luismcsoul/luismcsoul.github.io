@@ -4,18 +4,11 @@ collection: songs
 title: Armored Heart
 slug: armored-heart-emotional-withdrawal-emotional-numbing-emotional-d
 schema_type: MusicComposition
-keywords:
-- emotional withdrawal
-- emotional numbing
-- emotional detachment
-- emotional blunting
-- pistanthrophobia
-- avoidant attachment
-- behavioral walls
-- behavioral guarding
+keywords: emotional withdrawal, emotional numbing, emotional detachment, emotional
+  blunting, pistanthrophobia, avoidant attachment, behavioral walls, behavioral guarding
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://drive.google.com/file/d/1irw5VYRZ4kkm5XhLER1FB6CVCxjmaSX8/view?usp=drive_link
+media_alt: Armored Heart, Soul Feedback
 taglines: .nan
 references: emotional withdrawal, emotional numbing, emotional detachment, emotional
   blunting, pistanthrophobia, avoidant attachment, behavioral walls, behavioral guarding

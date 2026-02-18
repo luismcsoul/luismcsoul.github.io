@@ -4,11 +4,7 @@ collection: taglines
 title: Two seconds ago
 slug: two-seconds-ago-river-wasn
 schema_type: CreativeWork
-keywords:
-- seconds
-- river
-- wasn
-- here
+keywords: seconds, river, wasn, here
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

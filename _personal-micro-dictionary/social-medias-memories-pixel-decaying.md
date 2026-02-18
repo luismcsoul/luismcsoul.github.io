@@ -4,12 +4,7 @@ collection: personal-micro-dictionary
 title: 'SOCIAL MEDIAS:'
 slug: social-medias-memories-pixel-decaying
 schema_type: ShortStory
-keywords:
-- social
-- medias
-- memories
-- pixel
-- decaying
+keywords: social, medias, memories, pixel, decaying
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

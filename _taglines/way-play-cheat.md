@@ -4,9 +4,7 @@ collection: taglines
 title: Our Way
 slug: way-play-cheat
 schema_type: CreativeWork
-keywords:
-- play
-- cheat
+keywords: play, cheat
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

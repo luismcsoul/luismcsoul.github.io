@@ -4,11 +4,7 @@ collection: written-photography
 title: A SMALL TIE
 slug: small-tie-perfect-coat-sternum
 schema_type: CreativeWork
-keywords:
-- small
-- perfect
-- coat
-- sternum
+keywords: small, perfect, coat, sternum
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

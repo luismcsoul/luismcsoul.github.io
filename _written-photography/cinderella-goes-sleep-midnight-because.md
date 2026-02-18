@@ -4,15 +4,7 @@ collection: written-photography
 title: CINDERELLA
 slug: cinderella-goes-sleep-midnight-because
 schema_type: CreativeWork
-keywords:
-- cinderella
-- goes
-- sleep
-- midnight
-- because
-- another
-- representation
-- venus
+keywords: cinderella, goes, sleep, midnight, because, another, representation, venus
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

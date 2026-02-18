@@ -4,10 +4,7 @@ collection: taglines
 title: A house is not a home,
 slug: house-home-welcome
 schema_type: Statement
-keywords:
-- house
-- home
-- welcome
+keywords: house, home, welcome
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

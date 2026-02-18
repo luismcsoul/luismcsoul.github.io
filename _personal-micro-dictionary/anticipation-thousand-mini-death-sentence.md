@@ -4,16 +4,8 @@ collection: personal-micro-dictionary
 title: 'ANTICIPATION:'
 slug: anticipation-thousand-mini-death-sentence
 schema_type: ShortStory
-keywords:
-- anticipation
-- thousand
-- mini
-- death
-- sentence
-- flyers
-- suddenly
-- released
-- bloodstream
+keywords: anticipation, thousand, mini, death, sentence, flyers, suddenly, released,
+  bloodstream
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

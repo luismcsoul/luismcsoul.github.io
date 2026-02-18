@@ -4,13 +4,7 @@ collection: written-photography
 title: I KNOW ABOUT HAPPINESS
 slug: know-happiness-because-felt-laughter
 schema_type: CreativeWork
-keywords:
-- know
-- happiness
-- because
-- felt
-- laughter
-- like
+keywords: know, happiness, because, felt, laughter, like
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

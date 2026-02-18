@@ -4,11 +4,7 @@ collection: taglines
 title: Deliver us
 slug: deliver-us-anything-like-collect
 schema_type: CreativeWork
-keywords:
-- deliver
-- anything
-- like
-- collect
+keywords: deliver, anything, like, collect
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

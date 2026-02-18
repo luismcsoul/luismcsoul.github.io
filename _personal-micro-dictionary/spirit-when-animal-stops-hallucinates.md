@@ -4,12 +4,7 @@ collection: personal-micro-dictionary
 title: 'SPIRIT:'
 slug: spirit-when-animal-stops-hallucinates
 schema_type: ShortStory
-keywords:
-- spirit
-- when
-- animal
-- stops
-- hallucinates
+keywords: spirit, when, animal, stops, hallucinates
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

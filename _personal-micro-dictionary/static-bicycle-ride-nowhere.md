@@ -4,11 +4,7 @@ collection: personal-micro-dictionary
 title: 'STATIC BICYCLE:'
 slug: static-bicycle-ride-nowhere
 schema_type: ShortStory
-keywords:
-- static
-- bicycle
-- ride
-- nowhere
+keywords: static, bicycle, ride, nowhere
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

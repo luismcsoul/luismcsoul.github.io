@@ -4,12 +4,10 @@ collection: visualartwork
 title: 'Reverse Darwinism:'
 slug: reverse-darwinism-dr-alan-grant-jurassic-park-iii
 schema_type: VisualArtwork
-keywords:
-- dr. alan grant
-- jurassic park iii
+keywords: dr. alan grant, jurassic park iii
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://drive.google.com/file/d/16lshwnpjHOoXJAHhSGtCTLvguDmVU8Zg/view?usp=drive_link
+media_alt: Reverse Darwinism, Soul Feedback
 taglines: .nan
 references: Dr. Alan Grant, Jurassic Park III
 album: .nan

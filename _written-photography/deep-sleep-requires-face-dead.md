@@ -4,13 +4,7 @@ collection: written-photography
 title: DEEP SLEEP
 slug: deep-sleep-requires-face-dead
 schema_type: CreativeWork
-keywords:
-- deep
-- sleep
-- requires
-- face
-- dead
-- person
+keywords: deep, sleep, requires, face, dead, person
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

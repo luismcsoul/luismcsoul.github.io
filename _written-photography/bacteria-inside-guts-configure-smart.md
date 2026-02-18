@@ -4,16 +4,8 @@ collection: written-photography
 title: THE BACTERIA
 slug: bacteria-inside-guts-configure-smart
 schema_type: ShortStory
-keywords:
-- bacteria
-- inside
-- guts
-- configure
-- smart
-- organism
-- shell
-- human-shaped
-- exoskeleton
+keywords: bacteria, inside, guts, configure, smart, organism, shell, human-shaped,
+  exoskeleton
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

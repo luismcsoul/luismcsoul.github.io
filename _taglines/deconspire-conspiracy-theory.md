@@ -4,8 +4,7 @@ collection: taglines
 title: Deconspire
 slug: deconspire-conspiracy-theory
 schema_type: CreativeWork
-keywords:
-- conspiracy theory
+keywords: conspiracy theory
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

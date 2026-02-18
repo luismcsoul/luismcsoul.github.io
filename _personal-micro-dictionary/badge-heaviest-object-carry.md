@@ -4,11 +4,7 @@ collection: personal-micro-dictionary
 title: 'ID BADGE:'
 slug: badge-heaviest-object-carry
 schema_type: ShortStory
-keywords:
-- badge
-- heaviest
-- object
-- carry
+keywords: badge, heaviest, object, carry
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

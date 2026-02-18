@@ -4,12 +4,7 @@ collection: personal-micro-dictionary
 title: 'ASSESSMENT:'
 slug: assessment-dogs-know-each-other
 schema_type: CreativeWork
-keywords:
-- assessment
-- dogs
-- know
-- each
-- other
+keywords: assessment, dogs, know, each, other
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

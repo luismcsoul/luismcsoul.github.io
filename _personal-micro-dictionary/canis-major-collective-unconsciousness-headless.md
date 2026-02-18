@@ -4,15 +4,7 @@ collection: personal-micro-dictionary
 title: 'CANIS MAJOR:'
 slug: canis-major-collective-unconsciousness-headless
 schema_type: CreativeWork
-keywords:
-- canis
-- major
-- collective
-- unconsciousness
-- headless
-- robot
-- black
-- mirror
+keywords: canis, major, collective, unconsciousness, headless, robot, black, mirror
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

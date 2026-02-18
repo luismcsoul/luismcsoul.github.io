@@ -4,14 +4,7 @@ collection: written-photography
 title: ARTIFICIAL INTELLIGENCE
 slug: artificial-intelligence-revealed-game-always
 schema_type: CreativeWork
-keywords:
-- artificial
-- intelligence
-- revealed
-- game
-- always
-- which
-- questions
+keywords: artificial, intelligence, revealed, game, always, which, questions
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

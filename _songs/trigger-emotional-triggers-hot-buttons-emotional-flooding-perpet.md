@@ -4,17 +4,12 @@ collection: songs
 title: Trigger
 slug: trigger-emotional-triggers-hot-buttons-emotional-flooding-perpet
 schema_type: MusicComposition
-keywords:
-- emotional triggers
-- hot buttons
-- emotional flooding
-- perpetual problems
-- reactive cycle
-- attachment injuries
-- threats
+keywords: emotional triggers, hot buttons, emotional flooding, perpetual problems,
+  reactive cycle, attachment injuries, threats
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.6435-9/129916056_3392569890863696_6101788456749610043_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFNT-rg2wu7nzLMTpRQNCP1Yko739sqkWRiSjvf2yqRZLjuAcZ4kzXrwrEsOr4ujll5T3f-zwTeCntyOq1Ay3Q8&_nc_ohc=ZX3FBuQJo-0Q7kNvwE-xpyC&_nc_oc=Adnw9sl19QDP1zX99S7MFhXr7zuZo0KDUpTot7XuDTMLVzF-aUSrxVL10DrsAAwOaQE&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=qWExyOOBpfB3rfIGYsHibA&oh=00_AfsojDjH-2TRPt1_c8H5yl1GY_5pF6azpstr6kKBsrorkQ&oe=69AAC381
+media_alt: Trigger, Soul Feedback, Poster. Collage called "Pony Up" made by Oak +
+  Arrow
 taglines: .nan
 references: Emotional triggers, Hot buttons, Emotional flooding, perpetual problems,
   reactive cycle, attachment injuries, threats

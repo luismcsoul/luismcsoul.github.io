@@ -4,17 +4,8 @@ collection: written-photography
 title: ORCHESTRA
 slug: orchestra-groups-women-have-started
 schema_type: ShortStory
-keywords:
-- orchestra
-- groups
-- women
-- have
-- started
-- transform
-- every
-- single
-- monument
-- hole
+keywords: orchestra, groups, women, have, started, transform, every, single, monument,
+  hole
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

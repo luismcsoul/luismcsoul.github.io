@@ -4,17 +4,8 @@ collection: written-photography
 title: IKARIA WARIOOTIA
 slug: ikaria-wariootia-inside-mount-anus
 schema_type: CreativeWork
-keywords:
-- ikaria
-- wariootia
-- inside
-- mount
-- anus
-- sophisticated
-- worms
-- physiological
-- crutches
-- peristaltic
+keywords: ikaria, wariootia, inside, mount, anus, sophisticated, worms, physiological,
+  crutches, peristaltic
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

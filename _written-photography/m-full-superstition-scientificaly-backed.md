@@ -4,12 +4,7 @@ collection: written-photography
 title: I'M FULL OF SUPERSTITION
 slug: m-full-superstition-scientificaly-backed
 schema_type: CreativeWork
-keywords:
-- full
-- superstition
-- scientificaly
-- backed
-- possible
+keywords: full, superstition, scientificaly, backed, possible
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

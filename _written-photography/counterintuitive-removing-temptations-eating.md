@@ -4,11 +4,7 @@ collection: written-photography
 title: COUNTERINTUITIVE
 slug: counterintuitive-removing-temptations-eating
 schema_type: ShortStory
-keywords:
-- counterintuitive
-- removing
-- temptations
-- eating
+keywords: counterintuitive, removing, temptations, eating
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

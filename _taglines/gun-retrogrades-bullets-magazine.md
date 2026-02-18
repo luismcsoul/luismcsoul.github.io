@@ -4,10 +4,7 @@ collection: taglines
 title: A gun
 slug: gun-retrogrades-bullets-magazine
 schema_type: CreativeWork
-keywords:
-- retrogrades
-- bullets
-- magazine
+keywords: retrogrades, bullets, magazine
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

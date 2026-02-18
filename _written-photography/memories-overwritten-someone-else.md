@@ -4,14 +4,10 @@ collection: written-photography
 title: OUR MEMORIES
 slug: memories-overwritten-someone-else
 schema_type: CreativeWork
-keywords:
-- memories
-- overwritten
-- someone
-- else
+keywords: memories, overwritten, someone, else
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://i0.wp.com/themindcircle.com/wp-content/uploads/2023/07/mirage-in-gstaad.jpg
+media_alt: Mirage in Gstaad, Switzerland. Image by celini_prestifilippo
 taglines: .nan
 references: .nan
 album: .nan

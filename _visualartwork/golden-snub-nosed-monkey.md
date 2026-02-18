@@ -4,10 +4,7 @@ collection: visualartwork
 title: Golden Snub-Nosed Monkey
 slug: golden-snub-nosed-monkey
 schema_type: VisualArtwork
-keywords:
-- golden
-- snub-nosed
-- monkey
+keywords: golden, snub-nosed, monkey
 excerpt: .nan
 media_hero: https://media.raribleuserdata.com/image/aHR0cHM6Ly9pcGZzLnJhcmlibGV1c2VyZGF0YS5jb20vaXBmcy9RbVNFR1pITHBKZlV4WkUzRUpUTDdwbThWRkZKV2FLZG9XM0NTZ0RqdHhBbW01L2ltYWdlLnBuZw==?
 media_alt: .nan

@@ -4,11 +4,7 @@ collection: written-photography
 title: FROM RED TO GREEN
 slug: red-green-there-millions-steps
 schema_type: CreativeWork
-keywords:
-- green
-- there
-- millions
-- steps
+keywords: green, there, millions, steps
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

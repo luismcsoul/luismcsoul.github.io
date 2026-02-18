@@ -4,17 +4,8 @@ collection: written-photography
 title: SISYPHUS SYZIGY
 slug: sisyphus-syzigy-each-carries-earth
 schema_type: ShortStory
-keywords:
-- sisyphus
-- syzigy
-- each
-- carries
-- earth
-- underneath
-- perihelion
-- aphelion
-- again
-- relay
+keywords: sisyphus, syzigy, each, carries, earth, underneath, perihelion, aphelion,
+  again, relay
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

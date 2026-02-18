@@ -4,10 +4,7 @@ collection: taglines
 title: Opium wars
 slug: opium-wars-backfire
 schema_type: CreativeWork
-keywords:
-- opium
-- wars
-- backfire
+keywords: opium, wars, backfire
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

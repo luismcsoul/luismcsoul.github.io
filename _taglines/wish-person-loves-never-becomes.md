@@ -4,13 +4,7 @@ collection: taglines
 title: Wish
 slug: wish-person-loves-never-becomes
 schema_type: CreativeWork
-keywords:
-- wish
-- person
-- loves
-- never
-- becomes
-- invisible
+keywords: wish, person, loves, never, becomes, invisible
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

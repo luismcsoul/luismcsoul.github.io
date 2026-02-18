@@ -4,13 +4,7 @@ collection: written-photography
 title: TAO
 slug: tao-mistery-mastery-twins-both
 schema_type: CreativeWork
-keywords:
-- mistery
-- mastery
-- twins
-- both
-- meet
-- mist
+keywords: mistery, mastery, twins, both, meet, mist
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

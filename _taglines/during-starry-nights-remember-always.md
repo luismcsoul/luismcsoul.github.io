@@ -4,15 +4,7 @@ collection: taglines
 title: During starry nights,
 slug: during-starry-nights-remember-always
 schema_type: CreativeWork
-keywords:
-- during
-- starry
-- nights
-- remember
-- always
-- spot
-- darkest
-- patch
+keywords: during, starry, nights, remember, always, spot, darkest, patch
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

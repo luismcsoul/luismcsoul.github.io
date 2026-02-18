@@ -4,13 +4,11 @@ collection: article
 title: 'YUKO SHIMIZU: CONTEMPORARY HEROINES'
 slug: yuko-shimizu-contemporary-heroines-yuko-shimizu
 schema_type: Article
-keywords:
-- yuko shimizu
-- contemporary art theory
+keywords: yuko shimizu, contemporary art theory
 excerpt: .nan
 media_hero: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhn-O377LDicZZB3CQlRvYGaGmJBseYrKfkkEdXhH_eovb7jLxIgGpsPi9ZMvTahtsxSY7i1UGqi6i61xN7IYfWWtXvXV_cI8umI5r6jD3HkkGkRxObqWIqGRD2j-ziW7ZqIWKW16jyaA/s1600/bEWYUre6Qz6vcXdqiaqD3H-650-80.jpg
 media_alt: "Yuko Shimizu, illustration for cover and products: マキシマム・ザ・ホルモン (Maximum\
-  \ the Hormone) (Japanese metal band) \nDVD Deka Vs Deka (Nov 2015 released)"
+  \ the Hormone) (Japanese metal band) \n DVD Deka Vs Deka (Nov 2015 released)"
 taglines: .nan
 references: Yuko Shimizu, contemporary art theory
 album: .nan

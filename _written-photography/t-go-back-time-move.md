@@ -4,17 +4,7 @@ collection: written-photography
 title: YOU CAN'T GO BACK IN TIME
 slug: t-go-back-time-move
 schema_type: CreativeWork
-keywords:
-- back
-- time
-- move
-- forward
-- future
-- past
-- other
-- person
-- showing
-- change
+keywords: back, time, move, forward, future, past, other, person, showing, change
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

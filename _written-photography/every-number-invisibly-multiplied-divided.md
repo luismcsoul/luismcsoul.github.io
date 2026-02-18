@@ -4,13 +4,7 @@ collection: written-photography
 title: EVERY NUMBER
 slug: every-number-invisibly-multiplied-divided
 schema_type: CreativeWork
-keywords:
-- every
-- number
-- invisibly
-- multiplied
-- divided
-- powered
+keywords: every, number, invisibly, multiplied, divided, powered
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

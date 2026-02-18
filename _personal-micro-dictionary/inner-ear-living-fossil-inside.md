@@ -4,12 +4,7 @@ collection: personal-micro-dictionary
 title: 'INNER EAR:'
 slug: inner-ear-living-fossil-inside
 schema_type: ShortStory
-keywords:
-- inner
-- living
-- fossil
-- inside
-- humans
+keywords: inner, living, fossil, inside, humans
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

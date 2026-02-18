@@ -4,14 +4,7 @@ collection: written-photography
 title: SEAMLESSLY
 slug: seamlessly-wherever-waiting-line-frictionless
 schema_type: CreativeWork
-keywords:
-- seamlessly
-- wherever
-- waiting
-- line
-- frictionless
-- solutions
-- coming
+keywords: seamlessly, wherever, waiting, line, frictionless, solutions, coming
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,11 +4,7 @@ collection: taglines
 title: The Flies
 slug: flies-know-where-wound
 schema_type: CreativeWork
-keywords:
-- flies
-- know
-- where
-- wound
+keywords: flies, know, where, wound
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

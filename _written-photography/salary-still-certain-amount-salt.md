@@ -4,12 +4,7 @@ collection: written-photography
 title: YOUR SALARY
 slug: salary-still-certain-amount-salt
 schema_type: Statement
-keywords:
-- salary
-- still
-- certain
-- amount
-- salt
+keywords: salary, still, certain, amount, salt
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,9 +4,7 @@ collection: taglines
 title: Messenger
 slug: messenger-message
 schema_type: Statement
-keywords:
-- messenger
-- message
+keywords: messenger, message
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

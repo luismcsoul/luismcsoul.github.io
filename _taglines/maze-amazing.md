@@ -4,9 +4,7 @@ collection: taglines
 title: A Maze
 slug: maze-amazing
 schema_type: Statement
-keywords:
-- amazing
-- maze
+keywords: amazing, maze
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

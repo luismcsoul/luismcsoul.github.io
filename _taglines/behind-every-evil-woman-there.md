@@ -4,13 +4,7 @@ collection: taglines
 title: Behind
 slug: behind-every-evil-woman-there
 schema_type: Statement
-keywords:
-- behind
-- every
-- evil
-- woman
-- there
-- asshole
+keywords: behind, every, evil, woman, there, asshole
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

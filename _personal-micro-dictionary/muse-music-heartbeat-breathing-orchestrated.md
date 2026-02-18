@@ -4,12 +4,7 @@ collection: personal-micro-dictionary
 title: 'MUSE/MUSIC:'
 slug: muse-music-heartbeat-breathing-orchestrated
 schema_type: CreativeWork
-keywords:
-- muse
-- music
-- heartbeat
-- breathing
-- orchestrated
+keywords: muse, music, heartbeat, breathing, orchestrated
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

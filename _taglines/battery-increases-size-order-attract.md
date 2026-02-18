@@ -4,14 +4,7 @@ collection: taglines
 title: A Battery
 slug: battery-increases-size-order-attract
 schema_type: CreativeWork
-keywords:
-- battery
-- increases
-- size
-- order
-- attract
-- female
-- counterpart
+keywords: battery, increases, size, order, attract, female, counterpart
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

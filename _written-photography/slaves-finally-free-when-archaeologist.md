@@ -4,16 +4,8 @@ collection: written-photography
 title: THE SLAVES
 slug: slaves-finally-free-when-archaeologist
 schema_type: ShortStory
-keywords:
-- slaves
-- finally
-- free
-- when
-- archaeologist
-- unearthed
-- clay
-- pronounced
-- names
+keywords: slaves, finally, free, when, archaeologist, unearthed, clay, pronounced,
+  names
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

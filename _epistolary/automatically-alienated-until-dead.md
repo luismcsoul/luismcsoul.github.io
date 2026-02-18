@@ -4,11 +4,7 @@ collection: epistolary
 title: 🤖👽💀
 slug: automatically-alienated-until-dead
 schema_type: CreativeWork
-keywords:
-- automatically
-- alienated
-- until
-- dead
+keywords: automatically, alienated, until, dead
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

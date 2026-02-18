@@ -4,8 +4,7 @@ collection: taglines
 title: Revenge trading
 slug: revenge-trading-revenge-trading
 schema_type: CreativeWork
-keywords:
-- revenge trading
+keywords: revenge trading
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

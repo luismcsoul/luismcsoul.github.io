@@ -4,11 +4,7 @@ collection: epistolary
 title: Wellness
 slug: wellness-only-operates-presence
 schema_type: CreativeWork
-keywords:
-- wellness
-- only
-- operates
-- presence
+keywords: wellness, only, operates, presence
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

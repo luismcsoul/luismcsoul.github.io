@@ -4,11 +4,7 @@ collection: taglines
 title: Don't wait
 slug: don-t-wait-pain-make
 schema_type: CreativeWork
-keywords:
-- wait
-- pain
-- make
-- sense
+keywords: wait, pain, make, sense
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

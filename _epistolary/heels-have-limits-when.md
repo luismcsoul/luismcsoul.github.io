@@ -4,11 +4,7 @@ collection: epistolary
 title: On heels
 slug: heels-have-limits-when
 schema_type: CreativeWork
-keywords:
-- have
-- limits
-- when
-- heels
+keywords: have, limits, when, heels
 excerpt: Fetishism and idolatry of reality creates contemporary goddess in each beautiful
   woman you meet. This get's reinforced by hypersexualized pictures portraying her
   as untouchable divinity on social medias.

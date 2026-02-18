@@ -4,17 +4,8 @@ collection: written-photography
 title: A CHINESE EMPEROR
 slug: chinese-emperor-died-precisely-because
 schema_type: ShortStory
-keywords:
-- chinese
-- emperor
-- died
-- precisely
-- because
-- belief
-- drinking
-- mercury
-- elixir
-- towards
+keywords: chinese, emperor, died, precisely, because, belief, drinking, mercury, elixir,
+  towards
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

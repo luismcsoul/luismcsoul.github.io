@@ -4,12 +4,10 @@ collection: taglines
 title: Wish to have no followers
 slug: wish-have-followers-zero-follower-no-followers
 schema_type: CreativeWork
-keywords:
-- zero-follower
-- no followers
+keywords: zero-follower, no followers
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://i.pinimg.com/736x/f1/6e/61/f16e615a8ae2189b6ca9f8f42bb0a56f--concepts.jpg
+media_alt: Polaris Timelapse, Photo Michael Costa
 taglines: .nan
 references: zero-follower, no followers
 album: .nan

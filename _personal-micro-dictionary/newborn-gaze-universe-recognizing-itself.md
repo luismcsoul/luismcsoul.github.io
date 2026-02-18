@@ -4,12 +4,7 @@ collection: personal-micro-dictionary
 title: 'NEWBORN GAZE:'
 slug: newborn-gaze-universe-recognizing-itself
 schema_type: ShortStory
-keywords:
-- newborn
-- gaze
-- universe
-- recognizing
-- itself
+keywords: newborn, gaze, universe, recognizing, itself
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

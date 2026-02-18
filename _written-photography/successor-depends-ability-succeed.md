@@ -4,11 +4,7 @@ collection: written-photography
 title: SUCCESSOR
 slug: successor-depends-ability-succeed
 schema_type: CreativeWork
-keywords:
-- successor
-- depends
-- ability
-- succeed
+keywords: successor, depends, ability, succeed
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,18 +4,11 @@ collection: written-photography
 title: MOUNTAINS
 slug: mountains-destroyed-tear-down-axis
 schema_type: Statement
-keywords:
-- mountains
-- destroyed
-- tear
-- down
-- axis
-- mundi
-- colonized
-- community
+keywords: mountains, destroyed, tear, down, axis, mundi, colonized, community
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/mandala-of-vairocana-orca-art-gallery.jpg
+media_alt: Mandala of Vairocana is a painting by Orca Art Gallery which was uploaded
+  on June 10th, 2022.
 taglines: .nan
 references: .nan
 album: .nan

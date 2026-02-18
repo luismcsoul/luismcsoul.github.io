@@ -4,11 +4,10 @@ collection: sculpture
 title: Heartless
 slug: heartless
 schema_type: Sculpture
-keywords:
-- heartless
+keywords: heartless
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://drive.google.com/file/d/1BxWu91KBh1TCM6eJsotpHkoyV-jOYtSV/view?usp=drive_link
+media_alt: Heartless, Soul Feedback, Zodiac of Soullessness, Glass Sculpture
 taglines: .nan
 references: .nan
 album: .nan

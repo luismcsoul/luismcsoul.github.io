@@ -4,17 +4,7 @@ collection: personal-micro-dictionary
 title: 'BUILDING:'
 slug: building-cuboid-mount-caves-eagle
 schema_type: CreativeWork
-keywords:
-- building
-- cuboid
-- mount
-- caves
-- eagle
-- view
-- termite
-- passages
-- cave
-- humans
+keywords: building, cuboid, mount, caves, eagle, view, termite, passages, cave, humans
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,10 +4,7 @@ collection: taglines
 title: Attention is a currency,
 slug: attention-currency-always
 schema_type: Statement
-keywords:
-- attention
-- currency
-- always
+keywords: attention, currency, always
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,13 +4,7 @@ collection: written-photography
 title: IN A CASINO
 slug: casino-lost-everything-ever-considered
 schema_type: ShortStory
-keywords:
-- casino
-- lost
-- everything
-- ever
-- considered
-- valuable
+keywords: casino, lost, everything, ever, considered, valuable
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

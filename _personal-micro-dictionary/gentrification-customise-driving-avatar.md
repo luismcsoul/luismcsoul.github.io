@@ -4,11 +4,7 @@ collection: personal-micro-dictionary
 title: 'GENTRIFICATION:'
 slug: gentrification-customise-driving-avatar
 schema_type: CreativeWork
-keywords:
-- gentrification
-- customise
-- driving
-- avatar
+keywords: gentrification, customise, driving, avatar
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

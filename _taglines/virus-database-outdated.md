@@ -4,13 +4,10 @@ collection: taglines
 title: Virus
 slug: virus-database-outdated
 schema_type: CreativeWork
-keywords:
-- virus
-- database
-- outdated
+keywords: virus, database, outdated
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://drive.google.com/file/d/1I6WY4dTmIMX3YbyvpTjuBBFBJ53twXxt/view?usp=drive_link
+media_alt: Virus Database has been outdated
 taglines: .nan
 references: .nan
 album: .nan

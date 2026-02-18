@@ -4,11 +4,7 @@ collection: written-photography
 title: EVERYWHERE I LOOK
 slug: everywhere-look-masque-death
 schema_type: CreativeWork
-keywords:
-- everywhere
-- look
-- masque
-- death
+keywords: everywhere, look, masque, death
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

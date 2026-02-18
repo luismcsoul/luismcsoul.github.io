@@ -4,12 +4,7 @@ collection: written-photography
 title: TIME STAMPS
 slug: time-stamps-work-progress-until
 schema_type: Statement
-keywords:
-- time
-- stamps
-- work
-- progress
-- until
+keywords: time, stamps, work, progress, until
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

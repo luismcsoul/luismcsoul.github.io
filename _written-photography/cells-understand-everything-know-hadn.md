@@ -4,17 +4,7 @@ collection: written-photography
 title: THE CELLS
 slug: cells-understand-everything-know-hadn
 schema_type: ShortStory
-keywords:
-- cells
-- understand
-- everything
-- know
-- hadn
-- born
-- time
-- heard
-- same
-- advices
+keywords: cells, understand, everything, know, hadn, born, time, heard, same, advices
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

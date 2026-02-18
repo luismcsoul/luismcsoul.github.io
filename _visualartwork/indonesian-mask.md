@@ -4,9 +4,7 @@ collection: visualartwork
 title: Indonesian Mask
 slug: indonesian-mask
 schema_type: VisualArtwork
-keywords:
-- indonesian
-- mask
+keywords: indonesian, mask
 excerpt: .nan
 media_hero: https://media.raribleuserdata.com/image/aHR0cHM6Ly9pcGZzLnJhcmlibGV1c2VyZGF0YS5jb20vaXBmcy9RbWFmcEdEaWVyck1hTjdWRkYxSFVKWWllcHR5Y0J6OEpBM2ZKOUFXYUhjcFJOL2ltYWdlLnBuZw==?
 media_alt: .nan

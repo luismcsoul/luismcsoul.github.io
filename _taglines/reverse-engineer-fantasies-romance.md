@@ -4,11 +4,7 @@ collection: taglines
 title: Reverse Engineer
 slug: reverse-engineer-fantasies-romance
 schema_type: CreativeWork
-keywords:
-- reverse
-- engineer
-- fantasies
-- romance
+keywords: reverse, engineer, fantasies, romance
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

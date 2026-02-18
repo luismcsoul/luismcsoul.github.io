@@ -4,10 +4,7 @@ collection: taglines
 title: Symmetry
 slug: symmetry-mirrored-code
 schema_type: Statement
-keywords:
-- symmetry
-- mirrored
-- code
+keywords: symmetry, mirrored, code
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

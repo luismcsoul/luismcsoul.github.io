@@ -4,13 +4,7 @@ collection: taglines
 title: A missing piece,
 slug: missing-piece-makes-obsolete-table
 schema_type: Statement
-keywords:
-- missing
-- piece
-- makes
-- obsolete
-- table
-- game
+keywords: missing, piece, makes, obsolete, table, game
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

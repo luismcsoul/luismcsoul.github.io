@@ -4,12 +4,7 @@ collection: taglines
 title: In the living room
 slug: living-room-have-toys-didn
 schema_type: CreativeWork
-keywords:
-- have
-- living
-- room
-- toys
-- didn
+keywords: have, living, room, toys, didn
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

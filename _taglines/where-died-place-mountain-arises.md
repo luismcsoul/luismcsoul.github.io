@@ -4,12 +4,7 @@ collection: taglines
 title: Where He Died
 slug: where-died-place-mountain-arises
 schema_type: CreativeWork
-keywords:
-- place
-- where
-- died
-- mountain
-- arises
+keywords: place, where, died, mountain, arises
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

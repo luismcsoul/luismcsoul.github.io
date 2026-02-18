@@ -4,10 +4,7 @@ collection: taglines
 title: Dan Overcash
 slug: dan-overcash-always-broke
 schema_type: CreativeWork
-keywords:
-- overcash
-- always
-- broke
+keywords: overcash, always, broke
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

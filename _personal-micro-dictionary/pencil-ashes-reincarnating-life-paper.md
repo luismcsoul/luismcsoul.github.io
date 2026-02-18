@@ -4,12 +4,7 @@ collection: personal-micro-dictionary
 title: 'PENCIL:'
 slug: pencil-ashes-reincarnating-life-paper
 schema_type: ShortStory
-keywords:
-- pencil
-- ashes
-- reincarnating
-- life
-- paper
+keywords: pencil, ashes, reincarnating, life, paper
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

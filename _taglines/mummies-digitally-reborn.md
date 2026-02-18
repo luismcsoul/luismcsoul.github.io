@@ -4,10 +4,7 @@ collection: taglines
 title: Mummies
 slug: mummies-digitally-reborn
 schema_type: CreativeWork
-keywords:
-- mummies
-- digitally
-- reborn
+keywords: mummies, digitally, reborn
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

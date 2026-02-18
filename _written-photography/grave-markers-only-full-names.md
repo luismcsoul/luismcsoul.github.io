@@ -4,17 +4,7 @@ collection: written-photography
 title: GRAVE MARKERS
 slug: grave-markers-only-full-names
 schema_type: CreativeWork
-keywords:
-- grave
-- markers
-- only
-- full
-- names
-- dates
-- have
-- least
-- more
-- sentence
+keywords: grave, markers, only, full, names, dates, have, least, more, sentence
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

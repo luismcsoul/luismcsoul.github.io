@@ -4,20 +4,10 @@ collection: capsule-review
 title: PAINTED FIRE
 slug: painted-fire-kwon-taek-2002-like
 schema_type: CreativeWork
-keywords:
-- painted
-- fire
-- kwon-taek
-- '2002'
-- like
-- swan
-- then
-- left
-- swans
-- farewell
+keywords: painted, fire, kwon-taek, 2002, like, swan, then, left, swans, farewell
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://kinolorber.com/media_cache/userFiles/uploads/products/chi-hwa-seon/filmpageposter/product_735.jpg
+media_alt: Chi-hwa-seon, Film Poster
 taglines: .nan
 references: .nan
 album: .nan

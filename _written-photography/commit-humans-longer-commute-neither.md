@@ -4,13 +4,7 @@ collection: written-photography
 title: COMMIT
 slug: commit-humans-longer-commute-neither
 schema_type: Statement
-keywords:
-- commit
-- humans
-- longer
-- commute
-- neither
-- communicate
+keywords: commit, humans, longer, commute, neither, communicate
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

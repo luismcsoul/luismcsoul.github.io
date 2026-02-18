@@ -4,14 +4,7 @@ collection: written-photography
 title: PROPORTIONAL
 slug: proportional-followers-shiny-things-directly
 schema_type: CreativeWork
-keywords:
-- proportional
-- followers
-- shiny
-- things
-- directly
-- devotees
-- darkness
+keywords: proportional, followers, shiny, things, directly, devotees, darkness
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

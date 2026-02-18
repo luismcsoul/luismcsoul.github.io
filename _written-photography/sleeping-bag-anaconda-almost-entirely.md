@@ -4,12 +4,7 @@ collection: written-photography
 title: SLEEPING BAG
 slug: sleeping-bag-anaconda-almost-entirely
 schema_type: ShortStory
-keywords:
-- sleeping
-- anaconda
-- almost
-- entirely
-- devored
+keywords: sleeping, anaconda, almost, entirely, devored
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

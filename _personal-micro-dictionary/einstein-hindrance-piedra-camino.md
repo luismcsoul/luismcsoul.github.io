@@ -4,14 +4,11 @@ collection: personal-micro-dictionary
 title: EINSTEIN
 slug: einstein-hindrance-piedra-camino
 schema_type: CreativeWork
-keywords:
-- einstein
-- hindrance
-- piedra
-- camino
+keywords: einstein, hindrance, piedra, camino
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://www.researchgate.net/profile/Amrita-Sarkar-2/publication/335614942/figure/fig3/AS:799579289157632@1567645966697/Palaeolithic-core-tools-from-the-site.jpg
+media_alt: A Short Report on the Preliminary Investigation at the Site of Papamiya
+  Ki Tekdi – a Palaeolithic Site in Chandrapur District, Maharashtra, India
 taglines: .nan
 references: .nan
 album: .nan

@@ -4,10 +4,7 @@ collection: taglines
 title: For the photon,
 slug: photon-still-photography
 schema_type: Statement
-keywords:
-- photon
-- still
-- photography
+keywords: photon, still, photography
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

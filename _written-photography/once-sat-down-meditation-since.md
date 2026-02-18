@@ -4,17 +4,7 @@ collection: written-photography
 title: ONCE I SAT DOWN
 slug: once-sat-down-meditation-since
 schema_type: ShortStory
-keywords:
-- once
-- down
-- meditation
-- since
-- then
-- feeling
-- still
-- sitting
-- there
-- seeing
+keywords: once, down, meditation, since, then, feeling, still, sitting, there, seeing
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,15 +4,7 @@ collection: written-photography
 title: IN THE TEMPLE
 slug: temple-days-endless-mantras-until
 schema_type: ShortStory
-keywords:
-- temple
-- days
-- endless
-- mantras
-- until
-- people
-- faint
-- healed
+keywords: temple, days, endless, mantras, until, people, faint, healed
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

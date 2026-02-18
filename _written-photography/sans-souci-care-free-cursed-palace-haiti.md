@@ -4,12 +4,7 @@ collection: written-photography
 title: SANS-SOUCI
 slug: sans-souci-care-free-cursed-palace-haiti
 schema_type: CreativeWork
-keywords:
-- sans-souci
-- care-free
-- cursed
-- palace
-- haiti
+keywords: sans-souci, care-free, cursed, palace, haiti
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

@@ -4,9 +4,7 @@ collection: written-photography
 title: INFINITY
 slug: infinity-perspective
 schema_type: ShortStory
-keywords:
-- infinity
-- perspective
+keywords: infinity, perspective
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

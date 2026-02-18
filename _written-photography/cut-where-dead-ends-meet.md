@@ -4,11 +4,7 @@ collection: written-photography
 title: BY THE CUT
 slug: cut-where-dead-ends-meet
 schema_type: CreativeWork
-keywords:
-- where
-- dead
-- ends
-- meet
+keywords: where, dead, ends, meet
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

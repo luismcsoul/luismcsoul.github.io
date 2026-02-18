@@ -4,16 +4,7 @@ collection: written-photography
 title: IN THE RIVER
 slug: river-stones-rounded-time-still
 schema_type: ShortStory
-keywords:
-- river
-- stones
-- rounded
-- time
-- still
-- sharp
-- went
-- through
-- breakup
+keywords: river, stones, rounded, time, still, sharp, went, through, breakup
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

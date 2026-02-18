@@ -4,16 +4,7 @@ collection: written-photography
 title: DOWN IN THE HORIZON
 slug: down-horizon-sirius-blinks-white
 schema_type: CreativeWork
-keywords:
-- down
-- horizon
-- sirius
-- blinks
-- white
-- blue
-- like
-- lights
-- police
+keywords: down, horizon, sirius, blinks, white, blue, like, lights, police
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

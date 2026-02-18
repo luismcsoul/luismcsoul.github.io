@@ -4,10 +4,7 @@ collection: taglines
 title: To Paradise
 slug: paradise-arrive-awake
 schema_type: Statement
-keywords:
-- paradise
-- arrive
-- awake
+keywords: paradise, arrive, awake
 excerpt: .nan
 media_hero: https://miro.medium.com/v2/resize:fit:1400/1*Kz6OlNxFTbTXXgglBMdzsA.jpeg
 media_alt: Puppeteer Walid Rashed performing for kids on top of the ruins of the city.

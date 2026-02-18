@@ -4,13 +4,7 @@ collection: written-photography
 title: BITCOIN WAS THE TEST NET
 slug: bitcoin-test-net-further-energetic
 schema_type: CreativeWork
-keywords:
-- bitcoin
-- test
-- further
-- energetic
-- demand
-- matrix
+keywords: bitcoin, test, further, energetic, demand, matrix
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

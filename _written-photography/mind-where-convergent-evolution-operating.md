@@ -4,12 +4,7 @@ collection: written-photography
 title: MIND WHERE YOU ARE
 slug: mind-where-convergent-evolution-operating
 schema_type: Statement
-keywords:
-- mind
-- where
-- convergent
-- evolution
-- operating
+keywords: mind, where, convergent, evolution, operating
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

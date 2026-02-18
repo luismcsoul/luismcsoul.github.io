@@ -4,10 +4,7 @@ collection: personal-micro-dictionary
 title: 'BODYBUILDER:'
 slug: bodybuilder-wears-skin
 schema_type: ShortStory
-keywords:
-- bodybuilder
-- wears
-- skin
+keywords: bodybuilder, wears, skin
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan

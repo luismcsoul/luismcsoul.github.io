@@ -4,12 +4,7 @@ collection: taglines
 title: A basketball's free throw
 slug: basketball-s-free-throw-never
 schema_type: Statement
-keywords:
-- basketball
-- free
-- throw
-- never
-- lies
+keywords: basketball, free, throw, never, lies
 excerpt: .nan
 media_hero: .nan
 media_alt: .nan
