@@ -1,0 +1,16 @@
+{% assign sorted = site.articles | sort: 'slug' %}
+{% for item in sorted %}
+  {% if item.url == page.url %}
+    {% assign prev = sorted[forloop.index0 | minus: 1] %}
+    {% assign next = sorted[forloop.index0 | plus: 1] %}
+  {% endif %}
+{% endfor %}
+
+<nav class="page-nav">
+  {% if prev %}
+    <a class="nav-prev" href="{{ prev.url }}">← Previous</a>
+  {% endif %}
+  {% if next %}
+    <a class="nav-next" href="{{ next.url }}">Next →</a>
+  {% endif %}
+</nav>
