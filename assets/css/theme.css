@@ -52,7 +52,10 @@ main {
 /* Unify the edge hit-boxes */
 .edge {
   position: fixed;
-  z-index: 10; /* Lower than center text */
+  z-index: 999; /* Ensure it stays above content */
+  top: 0;
+  bottom: 0;
+  width: 15vw;
   display: flex;
   align-items: center;
   justify-content: center;
