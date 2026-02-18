@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (a && a.getAttribute('href')) window.location = a.getAttribute('href');
   }
 
-  // Utility: show/hide hero_media
+  // Utility: show/hide hero popup
   function showHeroMedia(){
-    const hero = document.querySelector('.hero_media');
-    if (hero) hero.classList.add('visible');
+    const hero = document.getElementById('mediaHeroPopup');
+    if (hero) hero.style.display = 'flex';
   }
   function hideHeroMedia(){
-    const hero = document.querySelector('.hero_media');
-    if (hero) hero.classList.remove('visible');
+    const hero = document.getElementById('mediaHeroPopup');
+    if (hero) hero.style.display = 'none';
   }
 
   // ----- Swipe detection for mobile / tablets -----
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ----- Press central text on mobile -----
-  const centralText = document.querySelector('.central_text');
+  const centralText = document.querySelector('.work-body'); // your main text container
   if (centralText){
     centralText.addEventListener('touchstart', () => {
       showHeroMedia();
