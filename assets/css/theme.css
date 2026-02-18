@@ -124,3 +124,14 @@ main {
     var(--collection-color-light) 100%
   );
 }
+
+.hero_media {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hero_media.visible {
+  display: block;
+  opacity: 1;
+}
