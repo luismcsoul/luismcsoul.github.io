@@ -1,30 +1,23 @@
-{%- assign L = page.nav.prev_in_collection  | default: nil -%}
-{%- assign R = page.nav.next_in_collection  | default: nil -%}
-{%- assign U = page.nav.prev_collection     | default: nil -%}
-{%- assign D = page.nav.next_collection     | default: nil -%}
+{% assign coll = site[page.collection] %}
+{% if coll %}
+  {% assign sorted = coll | sort: 'slug' %}
+  {% for item in sorted %}
+    {% if item.url == page.url %}
+      {% assign L = sorted[forloop.index0 | minus: 1] %}
+      {% assign R = sorted[forloop.index0 | plus: 1] %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
 <div class="edge-nav">
-  {%- if L -%}
-  <a class="edge edge-left"  data-edge="left"   href="{{ L | escape }}">
-    <span class="arrow"></span>
-  </a>
-  {%- endif -%}
-
-  {%- if R -%}
-  <a class="edge edge-right" data-edge="right"  href="{{ R | escape }}">
-    <span class="arrow"></span>
-  </a>
-  {%- endif -%}
-
-  {%- if U -%}
-  <a class="edge edge-top"   data-edge="top"    href="{{ U | escape }}">
-    <span class="arrow"></span>
-  </a>
-  {%- endif -%}
-
-  {%- if D -%}
-  <a class="edge edge-bottom" data-edge="bottom" href="{{ D | escape }}">
-    <span class="arrow"></span>
-  </a>
-  {%- endif -%}
+  {% if L %}
+    <a class="edge edge-left" data-edge="left" href="{{ L.url }}">
+      <span class="arrow"></span>
+    </a>
+  {% endif %}
+  {% if R %}
+    <a class="edge edge-right" data-edge="right" href="{{ R.url }}">
+      <span class="arrow"></span>
+    </a>
+  {% endif %}
 </div>
