@@ -32,20 +32,21 @@ document.addEventListener('DOMContentLoaded', () => {
     startY = t.clientY;
   }, {passive: true});
 
-  document.addEventListener('touchend', (e) => {
+document.addEventListener('touchend', (e) => {
     const t = e.changedTouches[0];
     endX = t.clientX; 
     endY = t.clientY;
-    
     const dx = endX - startX;
     const dy = endY - startY;
 
-    // Horizontal swipes
     if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > thresh) {
-      // Natural Swipe: Swipe finger RIGHT (dx > 0) to go to PREVIOUS (left)
-      // Swipe finger LEFT (dx < 0) to go to NEXT (right)
+      // Natural Swipe Logic
       navigate(dx > 0 ? 'left' : 'right');
-    } 
+    } else if (Math.abs(dy) > thresh) {
+      navigate(dy > 0 ? 'top' : 'bottom');
+    }
+}, {passive:true});
+  
     // Vertical swipes
     else if (Math.abs(dy) > thresh) {
       // Swipe finger DOWN (dy > 0) to go to TOP content
