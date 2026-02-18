@@ -9,6 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (a && a.getAttribute('href')) window.location = a.getAttribute('href');
   }
 
+  // Utility: show/hide hero_media
+  function showHeroMedia(){
+    const hero = document.querySelector('.hero_media');
+    if (hero) hero.classList.add('visible');
+  }
+  function hideHeroMedia(){
+    const hero = document.querySelector('.hero_media');
+    if (hero) hero.classList.remove('visible');
+  }
+
   // ----- Swipe detection for mobile / tablets -----
   let startX = 0, startY = 0, endX = 0, endY = 0;
   const thresh = 48; // px threshold
@@ -29,14 +39,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }, {passive:true});
 
-  // ----- Optional: arrow keys on desktop -----
+  // ----- Arrow keys + spacebar on desktop -----
   document.addEventListener('keydown', (e) => {
-    if (['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){
+    if (['ArrowLeft','ArrowRight','ArrowUp','ArrowDown',' '].includes(e.key)){
       e.preventDefault();
       if (e.key==='ArrowLeft')  navigate('left');
       if (e.key==='ArrowRight') navigate('right');
       if (e.key==='ArrowUp')    navigate('top');
       if (e.key==='ArrowDown')  navigate('bottom');
+      if (e.key===' ')          showHeroMedia();
     }
   });
+  document.addEventListener('keyup', (e) => {
+    if (e.key===' '){
+      hideHeroMedia();
+    }
+  });
+
+  // ----- Press central text on mobile -----
+  const centralText = document.querySelector('.central_text');
+  if (centralText){
+    centralText.addEventListener('touchstart', () => {
+      showHeroMedia();
+    }, {passive:true});
+    centralText.addEventListener('touchend', () => {
+      hideHeroMedia();
+    }, {passive:true});
+  }
 });
