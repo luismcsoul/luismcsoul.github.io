@@ -49,25 +49,30 @@ main {
 /* We keep these fixed and "hittable" with a transparent background.
    Without a background or dimensions, hover often fails to trigger. 
 */
+/* Unify the edge hit-boxes */
 .edge {
   position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 15vw;                 /* Large hit zone for desktop/tablet */
-  z-index: 50;
+  z-index: 10; /* Lower than center text */
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: rgba(0,0,0,0);   /* Transparent but physically there for the mouse */
-  transition: opacity .15s ease, background .3s ease;
-  cursor: pointer;
+  background: rgba(0,0,0,0); /* Solid hit area but transparent */
 }
 
-.edge-left   { left: 0; }
-.edge-right  { right: 0; }
-.edge-top    { top: 0; left: 0; right: 0; height: 15vh; width: 100%; }
-.edge-bottom { bottom: 0; left: 0; right: 0; height: 15vh; width: 100%; }
+.edge-left   { top: 0; bottom: 0; left: 0; width: 15vw; }
+.edge-right  { top: 0; bottom: 0; right: 0; width: 15vw; }
+.edge-top    { top: 0; left: 0; right: 0; height: 10vh; }
+.edge-bottom { bottom: 0; left: 0; right: 0; height: 10vh; }
+
+/* Ensure the central poem/text is the top priority for interaction */
+.work-body {
+  position: relative;
+  z-index: 50;
+  max-width: 70vw;
+  margin: 0 auto;
+  pointer-events: auto;
+}
 
 .edge .arrow { 
   font-size: 2rem;
