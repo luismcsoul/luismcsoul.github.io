@@ -122,6 +122,11 @@ document.addEventListener('keydown', function(event) {
   }
 });
 </script>
-    
   </article>
+
+  <article class="work brush-reveal evaporate" itemscope itemtype="https://schema.org/{{ page.schema_type | default: 'CreativeWork' }}">
+  {{ content | newline_to_br }}
+  {% include navigation.html %}
+</article>
+
 </main>
