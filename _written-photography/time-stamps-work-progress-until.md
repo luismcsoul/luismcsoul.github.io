@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/transcendental-imaginary-time-impossible-square/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 73%)
+light_color: hsl(200, 40%, 95%)
 ---
 TIME STAMPS
 

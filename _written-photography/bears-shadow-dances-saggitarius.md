@@ -21,6 +21,8 @@ nav:
   next_in_collection: /written-photography/m-full-superstition-scientificaly-backed/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 70%)
+light_color: hsl(200, 40%, 95%)
 ---
 "I" BEARS THE SHADOW
 

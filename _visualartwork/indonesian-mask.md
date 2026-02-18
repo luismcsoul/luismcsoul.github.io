@@ -20,5 +20,7 @@ nav:
   next_in_collection: /visualartwork/japanese-macaque/
   prev_collection: /personal-micro-dictionary/vertebrae-column-rows-data/
   next_collection: /epistolary/heels-have-limits-when/
+base_color: hsl(45, 55%, 62%)
+light_color: hsl(45, 40%, 95%)
 ---
 Indonesian Mask

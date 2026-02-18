@@ -20,6 +20,8 @@ nav:
   next_in_collection: /personal-micro-dictionary/inner-ear-living-fossil-inside/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+base_color: hsl(220, 55%, 75%)
+light_color: hsl(220, 40%, 95%)
 ---
 ID BADGE:
 

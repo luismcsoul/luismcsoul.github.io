@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/salary-still-certain-amount-salt/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 65%)
+light_color: hsl(200, 40%, 95%)
 ---
 YOU CAN'T GO BACK IN TIME
 

@@ -20,5 +20,7 @@ nav:
   next_in_collection: /visualartwork/sound-minded-star-of-affinity-rhcp-michael-moorcock/
   prev_collection: /personal-micro-dictionary/vertebrae-column-rows-data/
   next_collection: /epistolary/heels-have-limits-when/
+base_color: hsl(45, 55%, 51%)
+light_color: hsl(45, 40%, 95%)
 ---
 Songye Kifwebe Mask

@@ -20,6 +20,8 @@ nav:
   next_in_collection: /taglines/maze-amazing/
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+base_color: hsl(190, 55%, 57%)
+light_color: hsl(190, 40%, 95%)
 ---
 A house is not a home,
 if you are not welcome.

@@ -21,6 +21,8 @@ nav:
   next_in_collection: /written-photography/sleeping-bag-anaconda-almost-entirely/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 52%)
+light_color: hsl(200, 40%, 95%)
 ---
 SISYPHUS SYZIGY
 

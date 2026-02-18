@@ -20,6 +20,8 @@ nav:
   next_in_collection: /personal-micro-dictionary/vertebrae-column-rows-data/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+base_color: hsl(220, 55%, 63%)
+light_color: hsl(220, 40%, 95%)
 ---
 STATIC BICYCLE:
 

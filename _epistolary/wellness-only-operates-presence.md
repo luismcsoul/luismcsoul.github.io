@@ -20,5 +20,7 @@ nav:
   next_in_collection: /epistolary/automatically-alienated-until-dead/
   prev_collection: /visualartwork/sound-minded-star-of-affinity-rhcp-michael-moorcock/
   next_collection: /sculpture/chicken-heart-takotsubo-cardiomyopathy-broken-heart-chicken-hear/
+base_color: hsl(330, 55%, 35%)
+light_color: hsl(330, 40%, 95%)
 ---
 "Wellness only operates under your presence"

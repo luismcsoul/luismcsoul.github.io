@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/slaves-finally-free-when-archaeologist/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 65%)
+light_color: hsl(200, 40%, 95%)
 ---
 THE CELLS
 

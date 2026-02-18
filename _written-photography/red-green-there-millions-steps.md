@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/grave-markers-only-full-names/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 49%)
+light_color: hsl(200, 40%, 95%)
 ---
 FROM RED TO GREEN
 

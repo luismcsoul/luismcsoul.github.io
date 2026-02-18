@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/mountains-destroyed-tear-down-axis/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 59%)
+light_color: hsl(200, 40%, 95%)
 ---
 MIND WHERE YOU ARE
 

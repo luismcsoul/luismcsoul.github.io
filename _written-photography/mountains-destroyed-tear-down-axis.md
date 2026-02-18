@@ -21,6 +21,8 @@ nav:
   next_in_collection: /written-photography/once-sat-down-meditation-since/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 71%)
+light_color: hsl(200, 40%, 95%)
 ---
 MOUNTAINS
 

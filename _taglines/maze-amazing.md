@@ -20,6 +20,8 @@ nav:
   next_in_collection: /taglines/missing-piece-makes-obsolete-table/
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+base_color: hsl(190, 55%, 36%)
+light_color: hsl(190, 40%, 95%)
 ---
 Amazing
 always

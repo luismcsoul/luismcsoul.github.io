@@ -12,5 +12,7 @@ taglines: ''
 references: Granade, Heart
 album: ''
 citation: ''
+base_color: hsl(25, 55%, 75%)
+light_color: hsl(25, 40%, 95%)
 ---
 "Foreseeing fire in your relationships"

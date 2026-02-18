@@ -21,6 +21,8 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 citation: Arthur C. Clarke
+base_color: hsl(200, 55%, 68%)
+light_color: hsl(200, 40%, 95%)
 ---
 COMMIT
 

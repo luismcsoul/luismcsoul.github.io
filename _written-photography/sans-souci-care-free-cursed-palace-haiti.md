@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/seamlessly-wherever-waiting-line-frictionless/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 48%)
+light_color: hsl(200, 40%, 95%)
 ---
 SANS-SOUCI
 

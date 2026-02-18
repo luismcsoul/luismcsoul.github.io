@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/sharing-same-dna-subjects-variable/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 55%)
+light_color: hsl(200, 40%, 95%)
 ---
 SEAMLESSLY
 

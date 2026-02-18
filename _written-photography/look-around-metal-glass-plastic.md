@@ -21,6 +21,8 @@ nav:
   next_in_collection: /written-photography/mind-where-convergent-evolution-operating/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 44%)
+light_color: hsl(200, 40%, 95%)
 ---
 LOOK AROUND
 

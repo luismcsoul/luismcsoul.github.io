@@ -20,6 +20,8 @@ nav:
   next_in_collection: /taglines/deliver-us-anything-like-collect/
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+base_color: hsl(190, 55%, 37%)
+light_color: hsl(190, 40%, 95%)
 ---
 Deconspire
 yourself.

@@ -20,5 +20,7 @@ nav:
   next_in_collection: /visualartwork/songye-kifwebe-mask/
   prev_collection: /personal-micro-dictionary/vertebrae-column-rows-data/
   next_collection: /epistolary/heels-have-limits-when/
+base_color: hsl(45, 55%, 68%)
+light_color: hsl(45, 40%, 95%)
 ---
 Sifaka

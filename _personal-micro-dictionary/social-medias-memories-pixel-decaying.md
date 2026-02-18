@@ -20,6 +20,8 @@ nav:
   next_in_collection: /personal-micro-dictionary/spirit-when-animal-stops-hallucinates/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+base_color: hsl(220, 55%, 51%)
+light_color: hsl(220, 40%, 95%)
 ---
 SOCIAL MEDIAS:
 

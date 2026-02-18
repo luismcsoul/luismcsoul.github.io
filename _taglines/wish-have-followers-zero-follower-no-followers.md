@@ -20,5 +20,7 @@ nav:
   next_in_collection: null
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+base_color: hsl(190, 55%, 75%)
+light_color: hsl(190, 40%, 95%)
 ---
 Wish to have no followers

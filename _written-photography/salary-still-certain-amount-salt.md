@@ -20,6 +20,8 @@ nav:
   next_in_collection: null
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 54%)
+light_color: hsl(200, 40%, 95%)
 ---
 YOUR SALARY
 

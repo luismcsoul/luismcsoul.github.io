@@ -20,6 +20,8 @@ nav:
   next_in_collection: /personal-micro-dictionary/einstein-hindrance-piedra-camino/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+base_color: hsl(220, 55%, 70%)
+light_color: hsl(220, 40%, 95%)
 ---
 CANIS MAJOR:
 

@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/know-happiness-because-felt-laughter/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 35%)
+light_color: hsl(200, 40%, 95%)
 ---
 GRAVE MARKERS
 

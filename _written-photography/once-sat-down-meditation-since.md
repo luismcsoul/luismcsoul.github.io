@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/orchestra-groups-women-have-started/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 66%)
+light_color: hsl(200, 40%, 95%)
 ---
 ONCE I SAT DOWN
 

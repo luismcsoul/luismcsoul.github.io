@@ -21,6 +21,8 @@ nav:
   prev_collection: null
   next_collection: /photograph/frog/
 citation: Edgar Allan Poe
+base_color: hsl(200, 55%, 46%)
+light_color: hsl(200, 40%, 95%)
 ---
 EVERYWHERE I LOOK
 

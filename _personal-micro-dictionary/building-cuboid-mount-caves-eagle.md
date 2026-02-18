@@ -20,6 +20,8 @@ nav:
   next_in_collection: /personal-micro-dictionary/canis-major-collective-unconsciousness-headless/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+base_color: hsl(220, 55%, 37%)
+light_color: hsl(220, 40%, 95%)
 ---
 BUILDING:
 

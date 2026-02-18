@@ -21,6 +21,8 @@ nav:
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
 citation: Google Maps
+base_color: hsl(220, 55%, 60%)
+light_color: hsl(220, 40%, 95%)
 ---
 GENTRIFICATION:
 

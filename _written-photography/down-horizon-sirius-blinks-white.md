@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/every-number-invisibly-multiplied-divided/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 63%)
+light_color: hsl(200, 40%, 95%)
 ---
 DOWN IN THE HORIZON
 

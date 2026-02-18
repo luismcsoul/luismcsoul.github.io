@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/cut-where-dead-ends-meet/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 50%)
+light_color: hsl(200, 40%, 95%)
 ---
 BITCOIN WAS THE TEST NET
 

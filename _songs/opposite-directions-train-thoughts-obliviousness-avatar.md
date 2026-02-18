@@ -12,6 +12,8 @@ taglines: ''
 references: ''
 album: Counterfeit
 citation: ''
+base_color: hsl(280, 55%, 68%)
+light_color: hsl(280, 40%, 95%)
 ---
 OPPOSITE DIRECTIONS
 

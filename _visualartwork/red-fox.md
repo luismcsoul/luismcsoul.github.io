@@ -20,5 +20,7 @@ nav:
   next_in_collection: /visualartwork/reverse-darwinism-dr-alan-grant-jurassic-park-iii/
   prev_collection: /personal-micro-dictionary/vertebrae-column-rows-data/
   next_collection: /epistolary/heels-have-limits-when/
+base_color: hsl(45, 55%, 49%)
+light_color: hsl(45, 40%, 95%)
 ---
 Red Fox

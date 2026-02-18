@@ -20,5 +20,7 @@ nav:
   next_in_collection: null
   prev_collection: /written-photography/salary-still-certain-amount-salt/
   next_collection: /taglines/basketball-s-free-throw-never/
+base_color: hsl(100, 55%, 55%)
+light_color: hsl(100, 40%, 95%)
 ---
 Native

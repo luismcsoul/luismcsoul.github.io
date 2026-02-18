@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/bacteria-inside-guts-configure-smart/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 75%)
+light_color: hsl(200, 40%, 95%)
 ---
 THE ANTS CAME
 

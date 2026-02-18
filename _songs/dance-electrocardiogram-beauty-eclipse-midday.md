@@ -12,6 +12,8 @@ taglines: ''
 references: ''
 album: Sunk
 citation: ''
+base_color: hsl(280, 55%, 56%)
+light_color: hsl(280, 40%, 95%)
 ---
 DANCE
 

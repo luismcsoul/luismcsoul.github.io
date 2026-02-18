@@ -21,6 +21,8 @@ nav:
   next_in_collection: /written-photography/cells-understand-everything-know-hadn/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 43%)
+light_color: hsl(200, 40%, 95%)
 ---
 THE BACTERIA
 

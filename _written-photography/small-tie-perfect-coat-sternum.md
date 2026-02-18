@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/artificial-intelligence-revealed-game-always/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 47%)
+light_color: hsl(200, 40%, 95%)
 ---
 A SMALL TIE
 

@@ -20,6 +20,8 @@ nav:
   next_in_collection: /taglines/don-t-wait-pain-make/
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+base_color: hsl(190, 55%, 65%)
+light_color: hsl(190, 40%, 95%)
 ---
 Deliver us
 from anything

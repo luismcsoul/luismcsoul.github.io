@@ -20,6 +20,8 @@ nav:
   next_in_collection: /personal-micro-dictionary/building-cuboid-mount-caves-eagle/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+base_color: hsl(220, 55%, 49%)
+light_color: hsl(220, 40%, 95%)
 ---
 BODYBUILDER:
 

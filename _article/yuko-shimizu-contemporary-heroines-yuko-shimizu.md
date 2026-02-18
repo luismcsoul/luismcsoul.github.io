@@ -21,6 +21,8 @@ nav:
   next_in_collection: null
   prev_collection: /songs/unintended-permanence-every-character-need/
   next_collection: /capsule-review/painted-fire-kwon-taek-2002-like/
+base_color: hsl(0, 55%, 35%)
+light_color: hsl(0, 40%, 95%)
 ---
 YUKO SHIMIZU: CONTEMPORARY HEROINES
 

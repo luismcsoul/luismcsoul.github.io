@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/tao-mistery-mastery-twins-both/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 64%)
+light_color: hsl(200, 40%, 95%)
 ---
 SUCCESSOR
 

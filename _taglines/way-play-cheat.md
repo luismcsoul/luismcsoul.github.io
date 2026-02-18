@@ -20,6 +20,8 @@ nav:
   next_in_collection: /taglines/revenge-trading-revenge-trading/
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+base_color: hsl(190, 55%, 47%)
+light_color: hsl(190, 40%, 95%)
 ---
 Let's play it 
 our way

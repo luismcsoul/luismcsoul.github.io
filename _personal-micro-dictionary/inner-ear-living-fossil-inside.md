@@ -20,6 +20,8 @@ nav:
   next_in_collection: /personal-micro-dictionary/intelligence-inversely-proportionate-amount-trash/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+base_color: hsl(220, 55%, 42%)
+light_color: hsl(220, 40%, 95%)
 ---
 INNER EAR:
 

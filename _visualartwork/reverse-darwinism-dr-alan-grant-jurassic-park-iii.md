@@ -21,6 +21,8 @@ nav:
   prev_collection: /personal-micro-dictionary/vertebrae-column-rows-data/
   next_collection: /epistolary/heels-have-limits-when/
 citation: Dr. Alan Grant, Jurassic Park III
+base_color: hsl(45, 55%, 75%)
+light_color: hsl(45, 40%, 95%)
 ---
 "Reverse Darwinism:
 Survival of the most idiotic"

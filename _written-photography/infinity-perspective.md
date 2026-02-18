@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/look-around-metal-glass-plastic/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 41%)
+light_color: hsl(200, 40%, 95%)
 ---
 INFINITY
 

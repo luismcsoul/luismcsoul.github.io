@@ -20,6 +20,8 @@ nav:
   next_in_collection: /songs/trigger-emotional-triggers-hot-buttons-emotional-flooding-perpet/
   prev_collection: /sculpture/visible-antoine-de-saint-exupery-the-little-prince/
   next_collection: /article/yuko-shimizu-contemporary-heroines-yuko-shimizu/
+base_color: hsl(280, 55%, 38%)
+light_color: hsl(280, 40%, 95%)
 ---
 SELF-DESTRUCTIVE
 

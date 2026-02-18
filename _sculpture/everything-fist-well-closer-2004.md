@@ -20,5 +20,7 @@ nav:
   next_in_collection: /sculpture/heartless/
   prev_collection: /epistolary/automatically-alienated-until-dead/
   next_collection: /songs/armored-heart-emotional-withdrawal-emotional-numbing-emotional-d/
+base_color: hsl(25, 55%, 40%)
+light_color: hsl(25, 40%, 95%)
 ---
 Everything Fist Well

@@ -20,6 +20,8 @@ nav:
   next_in_collection: /personal-micro-dictionary/pencil-ashes-reincarnating-life-paper/
   prev_collection: /taglines/wish-have-followers-zero-follower-no-followers/
   next_collection: /visualartwork/bemba-mask/
+base_color: hsl(220, 55%, 35%)
+light_color: hsl(220, 40%, 95%)
 ---
 NEWBORN GAZE:
 

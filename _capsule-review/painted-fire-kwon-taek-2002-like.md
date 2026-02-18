@@ -21,6 +21,8 @@ nav:
   prev_collection: /article/yuko-shimizu-contemporary-heroines-yuko-shimizu/
   next_collection: null
 citation: Kwon-taek
+base_color: hsl(150, 55%, 35%)
+light_color: hsl(150, 40%, 95%)
 ---
 PAINTED FIRE
 Kwon-taek (2002)

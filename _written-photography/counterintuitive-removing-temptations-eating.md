@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/deep-sleep-requires-face-dead/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 56%)
+light_color: hsl(200, 40%, 95%)
 ---
 COUNTERINTUITIVE
 

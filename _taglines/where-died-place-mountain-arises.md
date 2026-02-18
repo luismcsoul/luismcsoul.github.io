@@ -20,6 +20,8 @@ nav:
   next_in_collection: /taglines/wish-person-loves-never-becomes/
   prev_collection: /photograph/native-monocultures-monotony-standarization/
   next_collection: /personal-micro-dictionary/anticipation-thousand-mini-death-sentence/
+base_color: hsl(190, 55%, 40%)
+light_color: hsl(190, 40%, 95%)
 ---
 In the place 
 where he died,

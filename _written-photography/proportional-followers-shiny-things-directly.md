@@ -20,6 +20,8 @@ nav:
   next_in_collection: /written-photography/sans-souci-care-free-cursed-palace-haiti/
   prev_collection: null
   next_collection: /photograph/frog/
+base_color: hsl(200, 55%, 37%)
+light_color: hsl(200, 40%, 95%)
 ---
 PROPORTIONAL
 
