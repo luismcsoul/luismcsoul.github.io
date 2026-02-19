@@ -12,7 +12,7 @@ taglines: ''
 references: ''
 album: Animal
 citation: ''
-base_color: hsl(280, 55%, 59%)
+base_color: hsl(280, 55%, 57%)
 light_color: hsl(280, 40%, 95%)
 ---
 DEJAVU

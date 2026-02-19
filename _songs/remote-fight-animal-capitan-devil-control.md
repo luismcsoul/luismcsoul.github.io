@@ -12,7 +12,7 @@ taglines: ''
 references: ''
 album: Counterfeit
 citation: ''
-base_color: hsl(280, 55%, 75%)
+base_color: hsl(280, 55%, 72%)
 light_color: hsl(280, 40%, 95%)
 ---
 REMOTE
