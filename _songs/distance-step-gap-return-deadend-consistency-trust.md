@@ -12,7 +12,7 @@ taglines: ''
 references: ''
 album: Counterfeit
 citation: ''
-base_color: hsl(280, 55%, 58%)
+base_color: hsl(280, 55%, 57%)
 light_color: hsl(280, 40%, 95%)
 ---
 GAP

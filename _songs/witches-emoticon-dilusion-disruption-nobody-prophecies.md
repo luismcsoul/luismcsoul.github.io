@@ -4,7 +4,7 @@ permalink: songs/witches-emoticon-dilusion-disruption-nobody-prophecies/
 schema_type: MusicComposition
 media_hero: https://drive.google.com/file/d/1FIBevCfC2CkXwjcJ16qEteD5Re7NrXKj/view?usp=drive_link
 media_alt: Witches, Soul Feedback
-base_color: hsl(280, 55%, 75%)
+base_color: hsl(280, 55%, 72%)
 light_color: hsl(280, 40%, 95%)
 layout: work
 ---

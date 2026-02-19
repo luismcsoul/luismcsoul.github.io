@@ -12,7 +12,7 @@ taglines: ''
 references: Body Dismorphic Disorder
 album: Collateral
 citation: ''
-base_color: hsl(280, 55%, 49%)
+base_color: hsl(280, 55%, 48%)
 light_color: hsl(280, 40%, 95%)
 ---
 CONCEALED

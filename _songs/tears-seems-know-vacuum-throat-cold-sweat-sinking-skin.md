@@ -4,7 +4,7 @@ permalink: songs/tears-seems-know-vacuum-throat-cold-sweat-sinking-skin/
 schema_type: MusicComposition
 media_hero: https://drive.google.com/file/d/1iVQyNKul5x_2dlBbwotN80ybBgikPXg0/view?usp=drive_link
 media_alt: Tears, Soul Feedback
-base_color: hsl(280, 55%, 72%)
+base_color: hsl(280, 55%, 70%)
 light_color: hsl(280, 40%, 95%)
 layout: work
 ---
