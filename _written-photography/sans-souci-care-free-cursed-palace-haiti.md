@@ -6,8 +6,9 @@ slug: sans-souci-care-free-cursed-palace-haiti
 schema_type: CreativeWork
 keywords: sans-souci, care-free, cursed, palace, haiti
 excerpt: .nan
-media_hero: .nan
-media_alt: .nan
+media_hero: https://monroegallery.com/userfiles/gallery/photos/2188/lastchildpolicetruck-web2.jpg
+media_alt: Ryan Vizzions, A dedication to the standing rock movement, 2017. Cannon
+  Ball, North Dakota. Sioux Tribe.
 taglines: .nan
 references: .nan
 album: .nan

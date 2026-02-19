@@ -23,7 +23,7 @@ nav:
   next_in_collection: null
   prev_collection: /sculpture/visible-antoine-de-saint-exupery-the-little-prince/
   next_collection: /article/yuko-shimizu-contemporary-heroines-yuko-shimizu/
-base_color: hsl(280, 55%, 49%)
+base_color: hsl(280, 55%, 46%)
 light_color: hsl(280, 40%, 95%)
 ---
 UNINTENDED PERMANENCE

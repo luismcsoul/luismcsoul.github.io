@@ -6,7 +6,7 @@ slug: blindness-jose-saramago
 schema_type: MusicComposition
 keywords: jose saramago, blindness
 excerpt: .nan
-media_hero: https://scontent.fmnl17-6.fna.fbcdn.net/v/t1.6435-9/67172615_2232094746911222_7008137027812065280_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0b6b33&_nc_eui2=AeFgVUgKC3RWoLX_oiIPhRqfB7ffGyXRl78Ht98bJdGXv6aYHGn_rQ5BXIsVeuNE0gMs7lPlXXNvwsi8baD9NXlH&_nc_ohc=IEdU4WJWKjYQ7kNvwHg5h5R&_nc_oc=Adk4y9_rFCrR8hpDlbE-gm1MFYSqHdpSugy4HBDclbPjrEpcDS3DbeFQz9s5cd6aNl4&_nc_zt=23&_nc_ht=scontent.fmnl17-6.fna&_nc_gid=OvuiPVBduSFImabfbmGg0A&oh=00_Afs7iaCsmIMu_uWwLZDvZNUF1Ql6AW2Hu_3UnF1H1v4Tdg&oe=69AACC57
+media_hero: https://drive.google.com/file/d/12vcSET18dAwHn5CHxyYSK7Dt5lv3GD0x/view?usp=drive_link
 media_alt: White Blindness, Soul Feedback
 taglines: .nan
 references: Jose Saramago, Blindness

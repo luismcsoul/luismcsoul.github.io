@@ -13,7 +13,7 @@ taglines: ''
 references: ''
 album: Animal
 citation: ''
-base_color: hsl(280, 55%, 69%)
+base_color: hsl(280, 55%, 63%)
 light_color: hsl(280, 40%, 95%)
 ---
 PORNSTAR
