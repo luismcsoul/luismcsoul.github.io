@@ -1,0 +1,40 @@
+#links-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.page-title {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+}
+
+.social-list li {
+  margin: 15px 0;
+}
+
+.social-list a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-list a i {
+  margin-right: 8px;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.social-list a:hover {
+  color: #0077b5; /* Example hover color */
+}
